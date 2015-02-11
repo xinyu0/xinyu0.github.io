@@ -1,40 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <title>xinyu wang</title>
+    <description>hi, my name is xinyu. I&#39;m a designer in training. I&#39;m also a lover of tea, art, music and manga.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 14:12:25 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 14:12:25 -0600</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2015 17:22:41 -0600</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 17:22:41 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>It&#39;s like going back to school, but it&#39;s not like school: reflections on the first 2 weeks of my web design class @the iron yard</title>
+        <description>&lt;p&gt;It has already been 2 weeks into my web design class @the iron yard, and it’s crazy how fast time files. I have done quite a bit over the last 2 weeks. Looking back, with no doubt, I feel really happy with how much I’ve learned and done, and Sam is one of the best teachers I ever had, as she knows so much in both design and tech (2 of my favorite things). Also, I really enjoyed being a student again, and I kind of don’t want to graduate in 10 weeks :) because learning is fun~  &lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;So far, I have learned the basics of HTML, CSS, the terminal, github, etc. I’m getting better at picking up new stuff, but I’m still struggling. One of the great things about learning @tiy is that I know I’m not going through this alone. Everyone here is so nice and so willing to help. And if you are like me, you are shy and don’t like to talk. That’s totally fine. &lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;But on the other hand…even though I’ve learned a lot, I can’t stop thinking in 10 weeks I will actually graduate and go out on my own as a designer. It seems really scary. It feels like trying to grow a baby to an adult in 3 months (This actually what I picture in my head!) That being said, this has been a great journey for me, and I am so glad to be here with my fellow classmates and be able to learn and challenge myself again.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 11 Feb 2015 08:00:47 -0600</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/02/11/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/02/11/welcome-to-jekyll.html</guid>
+        <pubDate>Tue, 10 Feb 2015 08:22:47 -0600</pubDate>
+        <link>http://yourdomain.com/iron_yard/2015/02/10/iron_yard_week1_and_week2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/iron_yard/2015/02/10/iron_yard_week1_and_week2.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>iron_yard</category>
         
       </item>
     
