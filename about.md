@@ -9,12 +9,18 @@ Hi, my name is xinyu. I grew up in Shanghai, China, and moved with my family to 
 *Currently watching*:  
 
 1. [Mondai no Aru Restaurant](http://www.fujitv.co.jp/mondainoaru_restaurant/index.html)  
-	![](http://wiki.d-addicts.com/static/images/thumb/c/c0/Mondainoaru.jpg/450px-Mondainoaru.jpg "Mondai no Aru Restaurant")  
-	![](./mondainoaru.jpg)
-	![]({{ site.url }}/images/about/mondainoaru.jpg)
-	![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg) 
+![](http://wiki.d-addicts.com/static/images/thumb/c/c0/Mondainoaru.jpg/450px-Mondainoaru.jpg "Mondai no Aru Restaurant") 
+
+![](mondainoaru.jpg)
+![]({{ site.url }}/mondainoaru.jpg)
+
+![My helpful screenshot]({{ site.url }}/images/about/mondainoaru.jpg)
+
+![My helpful screenshot](images/about/mondainoaru.jpg) 
 
 ![My helpful screenshot]({{ site.url }}/mondainoaru.jpg) 
+
+{{ site.url }}/images/about/mondainoaru.jpg
 
 2. [Ryusei Wagon](http://www.tbs.co.jp/ryusei_wagon/) 
 3. [Zeni no Sensou](http://www.ktv.jp/zeni/index.html) 
