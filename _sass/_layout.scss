@@ -5,8 +5,8 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background: #EEEEEE;
-    // Positioning context for the mobile navigation icon
+    background: url("images/headerbackground.png");
+    // #EEEEEE Positioning context for the mobile navigation icon
     position:relative;
 }
 
@@ -46,8 +46,14 @@
         &:hover {
         color: white;
         background: $brand-color;
-        
         }
+        &:last-child {
+             &:hover {
+                color: white;
+                background: #e5c100;
+        }
+        }
+        
     }
 
     @include media-query($on-palm) {

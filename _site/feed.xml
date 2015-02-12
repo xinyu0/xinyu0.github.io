@@ -6,12 +6,25 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Feb 2015 02:02:27 -0600</pubDate>
-    <lastBuildDate>Thu, 12 Feb 2015 02:02:27 -0600</lastBuildDate>
+    <pubDate>Thu, 12 Feb 2015 16:12:10 -0600</pubDate>
+    <lastBuildDate>Thu, 12 Feb 2015 16:12:10 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Learning grids &amp; practicing sketching - the first attempt</title>
+        <title>Group lecture</title>
+        <description>
+</description>
+        <pubDate>Thu, 12 Feb 2015 08:00:00 -0600</pubDate>
+        <link>http://xinyu0.github.io/iron_yard/2015/02/12/grouplecture.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/iron_yard/2015/02/12/grouplecture.html</guid>
+        
+        
+        <category>iron_yard</category>
+        
+      </item>
+    
+      <item>
+        <title>Learning grids &amp; practicing sketching</title>
         <description>&lt;p&gt;After 2 weeks of dabbling with Html Css, playing with Codepen, ITerm, github, and doing all sorts of coding stuff, this week we kind of switched gear and started talking about grids, and how they were used on the web. Of course, before this week’s lecture, even though I know that the layout of a website wasn’t just a random choice, I wasn’t very aware of grids, and didn’t know how they were used. Learning that you can chop up a web page into 10 columns, 12 columns is very interesting, and now I know in the future I can have a system to apply when designing the layout rather than just lining things up based on my intuition. &lt;/p&gt;
 
 &lt;p&gt;Grids are good. Learning it vs. actually putting it into use are 2 different things. Luckily, we don’t have to design some layouts right away. Our homework assignments were to sketch on paper a few pre-exisitng websites. &lt;/p&gt;
