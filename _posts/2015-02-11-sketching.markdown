@@ -6,3 +6,5 @@ categories: iron_yard
 ---
 my first attempt to sketch websites...
 
+![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+
