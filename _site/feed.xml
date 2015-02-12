@@ -6,17 +6,18 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 18:55:03 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 18:55:03 -0600</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2015 20:01:02 -0600</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 20:01:02 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Late night and tea</title>
-        <description>
+        <title>My first attempt to sketch websites</title>
+        <description>&lt;p&gt;my first attempt to sketch websites…&lt;/p&gt;
+
 </description>
-        <pubDate>Wed, 11 Feb 2015 08:22:47 -0600</pubDate>
-        <link>http://yourdomain.com/iron_yard/2015/02/11/late_night_and.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/iron_yard/2015/02/11/late_night_and.html</guid>
+        <pubDate>Wed, 11 Feb 2015 14:00:00 -0600</pubDate>
+        <link>http://yourdomain.com/iron_yard/2015/02/11/sketching.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/iron_yard/2015/02/11/sketching.html</guid>
         
         
         <category>iron_yard</category>
@@ -24,12 +25,17 @@
       </item>
     
       <item>
-        <title>Late night and tea</title>
-        <description>
+        <title>Reflections on the first 2 weeks of my web design class @the iron yard</title>
+        <description>&lt;p&gt;It has already been 2 weeks into my web design class @the iron yard, and it’s crazy how fast time files. It’s like going back to school, but it’s not like school. I really enjoyed being a student again, and I kind of don’t want to graduate in 10 weeks :) because learning is fun~  &lt;/p&gt;
+
+&lt;p&gt;I have done quite a bit over the last 2 weeks.So far, I have learned the basics of HTML, CSS, the terminal, github, etc. Looking back, with no doubt, I feel really happy with how much I’ve learned and done, and Sam is one of the best teachers I ever had, as she knows so much in both design and tech (2 of my favorite things). I’m getting better at picking up new stuff, but I’m still struggling. One of the great things about learning @tiy is that I know I’m not going through this alone. Everyone here is so nice and so willing to help. And if you are like me, you are shy and don’t like to talk. That’s totally fine. &lt;/p&gt;
+
+&lt;p&gt;That being said, even though I’ve learned a lot, I can’t stop thinking in 10 weeks I will actually graduate and go out on my own as a designer. It seems really scary. It feels like trying to grow a baby to an adult in 3 months (This actually what I picture in my head!) Anyway, this has been a great journey so far for me, and I am so glad to be here with my fellow classmates and be able to learn and challenge myself again. &lt;/p&gt;
+
 </description>
-        <pubDate>Wed, 11 Feb 2015 08:22:47 -0600</pubDate>
-        <link>http://yourdomain.com/iron_yard/2015/02/11/iron_yard_week1_and_week2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/iron_yard/2015/02/11/iron_yard_week1_and_week2.html</guid>
+        <pubDate>Tue, 10 Feb 2015 08:22:47 -0600</pubDate>
+        <link>http://yourdomain.com/iron_yard/2015/02/10/iron_yard_week1_and_week2.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/iron_yard/2015/02/10/iron_yard_week1_and_week2.html</guid>
         
         
         <category>iron_yard</category>
