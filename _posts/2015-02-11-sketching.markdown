@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning grids & practicing sketching - the first attempt"
+title:  "Learning grids & practicing sketching"
 date:   2015-02-11 20:00:00
 categories: iron_yard
 ---
@@ -11,7 +11,6 @@ Grids are good. Learning it vs. actually putting it into use are 2 different thi
 I am very much excited to work on this assignment. I like to draw since I was a kid, despite most of my sketches are ugly. Also, due to lacking of ideas, I haven't been doing it for many years. It feels good to sketch again. 
 
 I spent an average of 40 to 60 minutes per sketch, and yes, it's not easy to draw a straight line. 
-
 
 
 1. 
