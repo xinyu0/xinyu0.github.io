@@ -6,28 +6,20 @@ permalink: /about/
 
 Hi, my name is xinyu. I grew up in Shanghai, China, and moved with my family to the U.S. in 2007. I'm currently studying web design @the iron yard in Austin. Before this, I was working in the hospitality field in Las Vegas after receiving my degree in finance in 2011. When I'm not studying, I like to drink tea, listen to music, read mangas (Japanese comic books), and watch Asian TV dramas.
 
-*Currently watching*:  
+*TV dramas I'm currently watching:*  
 
 1. [Mondai no Aru Restaurant](http://www.fujitv.co.jp/mondainoaru_restaurant/index.html)  
-![](http://wiki.d-addicts.com/static/images/thumb/c/c0/Mondainoaru.jpg/450px-Mondainoaru.jpg "Mondai no Aru Restaurant") 
-
-![](mondainoaru.jpg)
-![]({{ site.url }}/mondainoaru.jpg)
-
-![My helpful screenshot]({{ site.url }}/images/about/mondainoaru.jpg)
-
-![My helpful screenshot](images/about/mondainoaru.jpg) 
-
-![My helpful screenshot]({{ site.url }}/mondainoaru.jpg) 
-
-{{ site.url }}/images/about/mondainoaru.jpg
-
 2. [Ryusei Wagon](http://www.tbs.co.jp/ryusei_wagon/) 
 3. [Zeni no Sensou](http://www.ktv.jp/zeni/index.html) 
 
-*Things I want to learn in 2015*:
+*Books I want to read:*
+
+1. [Flowers for Algernon](http://www.amazon.com/Flowers-Algernon-Daniel-Keyes/dp/0156030306) 
+
+*Things I want to learn in 2015:*
 
 1. Web design (in progress)
 2. Guitar - basic (in progress...but slowly)
 3. Japanese - basic 
+
 

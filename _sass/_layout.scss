@@ -36,10 +36,12 @@
         line-height: $base-line-height;
         padding:5px;
         text-decoration: none;
+        border-radius: 5px;
+        border: 2px dotted $text-color;
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 10px;
         }
         &:hover {
         color: white;

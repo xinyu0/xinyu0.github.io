@@ -4,22 +4,31 @@
     <title>xinyu wang</title>
     <description>hi, my name is xinyu. I&#39;m a designer in training. I&#39;m also a lover of art, music and tea.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 21:12:17 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 21:12:17 -0600</lastBuildDate>
+    <link>http://xinyu0.github.io/</link>
+    <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 11 Feb 2015 22:42:58 -0600</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 22:42:58 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>My first attempt to sketch websites</title>
         <description>&lt;p&gt;my first attempt to sketch websites…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://yourdomain.com/assets/screenshot.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/01/01.jpg =100px&quot; alt=&quot;why&quot; /&gt;
+&lt;img src=&quot;http://xinyu0.github.io/images/2015-02-11/mondainoaru.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/about/mondainoaru.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/about/01.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/01/01.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/01/IMG_20150211_221311.jpg&quot; alt=&quot;My helpful screenshot&quot; /&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 11 Feb 2015 14:00:00 -0600</pubDate>
-        <link>http://yourdomain.com/iron_yard/2015/02/11/sketching.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/iron_yard/2015/02/11/sketching.html</guid>
+        <link>http://xinyu0.github.io/iron_yard/2015/02/11/sketching.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/iron_yard/2015/02/11/sketching.html</guid>
         
         
         <category>iron_yard</category>
@@ -36,8 +45,8 @@
 
 </description>
         <pubDate>Tue, 10 Feb 2015 08:22:47 -0600</pubDate>
-        <link>http://yourdomain.com/iron_yard/2015/02/10/iron_yard_week1_and_week2.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/iron_yard/2015/02/10/iron_yard_week1_and_week2.html</guid>
+        <link>http://xinyu0.github.io/iron_yard/2015/02/10/iron_yard_week1_and_week2.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/iron_yard/2015/02/10/iron_yard_week1_and_week2.html</guid>
         
         
         <category>iron_yard</category>
