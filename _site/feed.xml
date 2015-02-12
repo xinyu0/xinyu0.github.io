@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>xinyu wang</title>
-    <description>hi, my name is xinyu. I&#39;m a designer in training. I&#39;m also a lover of tea, art, music and manga.
+    <description>hi, my name is xinyu. I&#39;m a designer in training. I&#39;m also a lover of art, music and tea.
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Feb 2015 17:46:11 -0600</pubDate>
-    <lastBuildDate>Wed, 11 Feb 2015 17:46:11 -0600</lastBuildDate>
+    <pubDate>Wed, 11 Feb 2015 18:04:43 -0600</pubDate>
+    <lastBuildDate>Wed, 11 Feb 2015 18:04:43 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
