@@ -5,9 +5,12 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background: url("images/headerbackground.png");
+    background: url("http://xinyu0.github.io/images/headerbackground.png");
     // #EEEEEE Positioning context for the mobile navigation icon
     position:relative;
+    &::after {
+        opacity: 0.5;
+    }
 }
 
 .site-title {
@@ -109,6 +112,8 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background: url("http://xinyu0.github.io/images/headerbackground.png");
+
 }
 
 .footer-heading {
@@ -178,6 +183,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    background: url("http://xinyu0.github.io/images/headerbackground.png");
 }
 
 .page-heading {

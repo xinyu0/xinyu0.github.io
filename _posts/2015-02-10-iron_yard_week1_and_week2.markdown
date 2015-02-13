@@ -2,7 +2,7 @@
 layout: post
 title:  "Reflections on the first 2 weeks of my web design class @the iron yard"
 date:   2015-02-10 14:22:47
-categories: iron_yard
+tags: iron_yard
 ---
 It has already been 2 weeks into my web design class @the iron yard, and it's crazy how fast time files. It's like going back to school, but it's not like school. I really enjoyed being a student again, and I kind of don't want to graduate in 10 weeks :) because learning is fun~  
  

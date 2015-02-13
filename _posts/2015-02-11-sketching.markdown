@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning grids & practicing sketching"
 date:   2015-02-11 20:00:00
-categories: iron_yard
+tags: iron_yard
 ---
 After 2 weeks of dabbling with Html Css, playing with Codepen, ITerm, github, and doing all sorts of coding stuff, this week we kind of switched gear and started talking about grids, and how they were used on the web. Of course, before this week's lecture, even though I know that the layout of a website wasn't just a random choice, I wasn't very aware of grids, and didn't know how they were used. Learning that you can chop up a web page into 10 columns, 12 columns is very interesting, and now I know in the future I can have a system to apply when designing the layout rather than just lining things up based on my intuition. 
 

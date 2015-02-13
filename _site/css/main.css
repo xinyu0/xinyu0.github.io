@@ -149,8 +149,10 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background: url("images/headerbackground.png");
+  background: url("http://xinyu0.github.io/images/headerbackground.png");
   position: relative; }
+  .site-header::after {
+    opacity: 0.5; }
 
 .site-title {
   font-size: 26px;
@@ -218,7 +220,8 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 30px 0; }
+  padding: 30px 0;
+  background: url("http://xinyu0.github.io/images/headerbackground.png"); }
 
 .footer-heading {
   font-size: 18px;
@@ -269,7 +272,8 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  background: url("http://xinyu0.github.io/images/headerbackground.png"); }
 
 .page-heading {
   font-size: 20px; }
