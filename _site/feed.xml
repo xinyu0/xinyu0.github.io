@@ -6,9 +6,51 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 13 Feb 2015 01:28:05 -0600</pubDate>
-    <lastBuildDate>Fri, 13 Feb 2015 01:28:05 -0600</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2015 22:44:26 -0600</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2015 22:44:26 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Basic Responsive CodePens</title>
+        <description>&lt;p&gt;Below shows four responsive CodePens that I’ve worked on after our first intro class on responsive web design. &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Starting with two 200 x 200px boxes, and as the screen size gets bigger, at the 800px breakpoint, the width of these boxes will become 50% of the screen size and the boxes will float next to each other.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;RNQeBg&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/RNQeBg/&quot;&gt;RNQeBg&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add a third box that is blue and 100%. At 800px: each box is 30.333% with a margin of 4.5% between the divs, but no margin on the right of the blue box.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;MYQPPd&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/MYQPPd/&quot;&gt;MYQPPd&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add a new breakpoint at 500px, where boxes at 48% with a margin of 4% in between them and no margin on the outside. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;yyvRQr&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/yyvRQr/&quot;&gt;yyvRQr&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A completely different box. At global: it is 90% wide, 100px tall, pink, and centered. At 650px, it should be 80% and 200px tall. At 960px, it should be 70% wide, 300px tall, and should stop growing at 1000px.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;dPdgwv&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/dPdgwv/&quot;&gt;dPdgwv&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Sun, 15 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://xinyu0.github.io/2015/02/15/basicresponsiveCodePens.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/15/basicresponsiveCodePens.html</guid>
+        
+        <category>iron_yard</category>
+        
+        
+      </item>
     
       <item>
         <title>Group lecture</title>
