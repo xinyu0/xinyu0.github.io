@@ -4,7 +4,7 @@ title:  "Basic responsive CodePens"
 date:   2015-02-15
 tags: iron_yard
 ---
-Below shows four responsive CodePens that I've worked on after our first intro class on responsive web design. 
+Below shows four responsive CodePens that I've worked on after our first class on responsive web design. 
 
 * Starting with two 200 x 200px boxes, and as the screen size gets bigger, at the 800px breakpoint, the width of these boxes will become 50% of the screen size and the boxes will float next to each other.
 

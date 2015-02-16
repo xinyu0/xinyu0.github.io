@@ -6,13 +6,13 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Feb 2015 23:12:17 -0600</pubDate>
-    <lastBuildDate>Sun, 15 Feb 2015 23:12:17 -0600</lastBuildDate>
+    <pubDate>Mon, 16 Feb 2015 00:33:19 -0600</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2015 00:33:19 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Basic responsive CodePens</title>
-        <description>&lt;p&gt;Below shows four responsive CodePens that I’ve worked on after our first intro class on responsive web design. &lt;/p&gt;
+        <description>&lt;p&gt;Below shows four responsive CodePens that I’ve worked on after our first class on responsive web design. &lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Starting with two 200 x 200px boxes, and as the screen size gets bigger, at the 800px breakpoint, the width of these boxes will become 50% of the screen size and the boxes will float next to each other.&lt;/li&gt;
@@ -66,6 +66,21 @@
       </item>
     
       <item>
+        <title>Sketching...why?</title>
+        <description>&lt;p&gt;In today’s class, Sam talked a lot about sketching, and why it’s so important in the web design process. What I learned is “as a web designer, sketching is not about getting everything perfect. You don’t have to draw the lines straight and have all of your boxes the same size. The point is to get your idea out of your head and down on paper. So don’t worry about the details, you can work on them and clean things up later on.” Also, there is an article from “A List Apart” that talks about this in more details &lt;a href=&quot;http://alistapart.com/article/sketching-the-visual-thinking-power-tool&quot;&gt;click&lt;/a&gt;. I found it very helpful. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Feb 2015 15:00:00 -0600</pubDate>
+        <link>http://xinyu0.github.io/2015/02/11/sketching.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/11/sketching.html</guid>
+        
+        <category>iron_yard,</category>
+        
+        <category>thanks_Sam</category>
+        
+        
+      </item>
+    
+      <item>
         <title>Learning grids &amp; practicing sketching</title>
         <description>&lt;p&gt;After 2 weeks of dabbling with Html Css, playing with Codepen, ITerm, github, and doing all sorts of coding stuff, this week we kind of switched gear and started talking about grids, and how they were used on the web. Of course, before this week’s lecture, even though I know that the layout of a website wasn’t just a random choice, I wasn’t very aware of grids, and didn’t know how they were used. Learning that you can chop up a web page into 10 columns, 12 columns is very interesting, and now I know in the future I can have a system to apply when designing the layout rather than just lining things up based on my intuition. &lt;/p&gt;
 
@@ -110,8 +125,8 @@
 
 </description>
         <pubDate>Wed, 11 Feb 2015 14:00:00 -0600</pubDate>
-        <link>http://xinyu0.github.io/2015/02/11/sketching.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/11/sketching.html</guid>
+        <link>http://xinyu0.github.io/2015/02/11/sketching%202.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/11/sketching%202.html</guid>
         
         <category>iron_yard</category>
         
