@@ -64,10 +64,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #f30;
+  color: #ff5555;
   text-decoration: none; }
   a:visited {
-    color: #b32400; }
+    color: #ff0808; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -179,13 +179,13 @@ pre {
       margin-left: 10px; }
     .site-nav .page-link:hover {
       color: white;
-      background: #f30; }
+      background: #ff5555; }
     .site-nav .page-link:first-child:hover {
       color: white;
-      background: #e5c100; }
+      background: #ff2222; }
     .site-nav .page-link:last-child:hover {
       color: white;
-      background: #828282; }
+      background: #ff8888; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -340,10 +340,10 @@ pre {
   float: left; }
 
 .temp1 {
-  background: #e5c100; }
+  background: #ff2222; }
 
 .temp2 {
-  background: #f30; }
+  background: #ff8888; }
 
 .temp3 {
   background: #eeeeee; }

@@ -6,8 +6,8 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 16 Feb 2015 00:33:19 -0600</pubDate>
-    <lastBuildDate>Mon, 16 Feb 2015 00:33:19 -0600</lastBuildDate>
+    <pubDate>Mon, 16 Feb 2015 13:01:11 -0600</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2015 13:01:11 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -42,10 +42,32 @@
 &lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;dPdgwv&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/dPdgwv/&quot;&gt;dPdgwv&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
+&lt;ul&gt;
+  &lt;li&gt;A 1-column grid that breaks into 12-column grids at 500px.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;vEdMgw&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/vEdMgw/&quot;&gt;vEdMgw&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
 </description>
         <pubDate>Sun, 15 Feb 2015 00:00:00 -0600</pubDate>
         <link>http://xinyu0.github.io/2015/02/15/basicresponsiveCodePens.html</link>
         <guid isPermaLink="true">http://xinyu0.github.io/2015/02/15/basicresponsiveCodePens.html</guid>
+        
+        <category>iron_yard,</category>
+        
+        <category>homework</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Friday</title>
+        <description>
+</description>
+        <pubDate>Fri, 13 Feb 2015 00:00:00 -0600</pubDate>
+        <link>http://xinyu0.github.io/2015/02/13/Friday.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/13/Friday.html</guid>
         
         <category>iron_yard</category>
         
@@ -54,7 +76,7 @@
     
       <item>
         <title>Group lecture</title>
-        <description>&lt;p&gt;Today we had a joint lecture with FEE &amp;amp; ROR on git commands and designs. I’ve learned a lot more command lines and also realize that there is some common ground between developers &amp;amp; designers…both are trying to solve problems: FEE &amp;amp; ROR developers are making things to work and perform well. Designers are making things to look better and more appealing to their audience. So I might come back in a few months to take the FEE or ROR class. Who knows?&lt;/p&gt;
+        <description>&lt;p&gt;Today we had a joint lecture with FEE &amp;amp; ROR on git commands and designs. I’ve learned a lot more command lines, and I am a little surprised that I kind of enjoy learning both - design and coding. This makes me realized that there is some common ground between developers &amp;amp; designers…  Both developers and designers are trying to solve problems: FEE &amp;amp; ROR developers are making things to work and perform well. Designers are making things to look better and more appealing to their audience. So, maybe after I finish the web design program, I will come back in a few months to take the FEE or ROR classes :)&lt;/p&gt;
 </description>
         <pubDate>Thu, 12 Feb 2015 08:00:00 -0600</pubDate>
         <link>http://xinyu0.github.io/2015/02/12/grouplecture.html</link>

@@ -6,7 +6,7 @@
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
     background: url("http://xinyu0.github.io/images/headerbackground.png");
-    // #EEEEEE Positioning context for the mobile navigation icon
+    // Positioning context for the mobile navigation icon
     position:relative;
     &::after {
         opacity: 0.5;
@@ -54,14 +54,14 @@
         &:first-child {
              &:hover {
                 color: white;
-                background: #e5c100;
+                background: #ff2222;
         }
         }
         
         &:last-child {
              &:hover {
                 color:white;
-                background: #828282;
+                background: #ff8888;
         }        
         }
         
@@ -280,11 +280,11 @@
 }
 
 .temp1 {
-    background: #e5c100;
+    background: #ff2222;
 }
 
 .temp2 {
-    background: #f30;
+    background: #ff8888;
 }
 
 .temp3 {

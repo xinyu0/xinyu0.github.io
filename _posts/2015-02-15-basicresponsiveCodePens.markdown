@@ -2,7 +2,7 @@
 layout: post
 title:  "Basic responsive CodePens"
 date:   2015-02-15
-tags: iron_yard
+tags: iron_yard, homework
 ---
 Below shows four responsive CodePens that I've worked on after our first class on responsive web design. 
 
@@ -24,4 +24,9 @@ Below shows four responsive CodePens that I've worked on after our first class o
 * A completely different box. At global: it is 90% wide, 100px tall, pink, and centered. At 650px, it should be 80% and 200px tall. At 960px, it should be 70% wide, 300px tall, and should stop growing at 1000px.
 
 <p data-height="268" data-theme-id="0" data-slug-hash="dPdgwv" data-default-tab="result" data-user="xinyu" class='codepen'>See the Pen <a href='http://codepen.io/xinyu/pen/dPdgwv/'>dPdgwv</a> by xinyu wang (<a href='http://codepen.io/xinyu'>@xinyu</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+
+* A 1-column grid that breaks into 12-column grids at 500px.
+
+<p data-height="268" data-theme-id="0" data-slug-hash="vEdMgw" data-default-tab="result" data-user="xinyu" class='codepen'>See the Pen <a href='http://codepen.io/xinyu/pen/vEdMgw/'>vEdMgw</a> by xinyu wang (<a href='http://codepen.io/xinyu'>@xinyu</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
