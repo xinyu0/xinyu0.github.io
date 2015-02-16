@@ -6,12 +6,12 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Feb 2015 22:44:26 -0600</pubDate>
-    <lastBuildDate>Sun, 15 Feb 2015 22:44:26 -0600</lastBuildDate>
+    <pubDate>Sun, 15 Feb 2015 23:12:17 -0600</pubDate>
+    <lastBuildDate>Sun, 15 Feb 2015 23:12:17 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Basic Responsive CodePens</title>
+        <title>Basic responsive CodePens</title>
         <description>&lt;p&gt;Below shows four responsive CodePens that I’ve worked on after our first intro class on responsive web design. &lt;/p&gt;
 
 &lt;ul&gt;
@@ -71,67 +71,42 @@
 
 &lt;p&gt;Grids are good. Learning it vs. actually putting it into use are 2 different things. Luckily, we don’t have to design some layouts right away. Our homework assignments were to sketch on paper a few pre-exisitng websites. &lt;/p&gt;
 
-&lt;p&gt;I am very much excited to work on this assignment. I like to draw since I was a kid, despite most of my sketches are ugly. Also, due to lacking of ideas, I haven’t been doing it for many years. It feels good to sketch again. &lt;/p&gt;
+&lt;p&gt;I was very excited to work on this assignment. I like to draw since I was a kid, despite most of my sketches are ugly. Also, due to lacking of ideas, I haven’t been doing it for many years. It feels good to sketch again. &lt;/p&gt;
 
-&lt;p&gt;I spent an average of 40 to 60 minutes per sketch, and yes, it’s not easy to draw a straight line. &lt;/p&gt;
+&lt;p&gt;I spent on average 40 to 60 minutes on each sketch. Even though, these are by no means good sketches. But the more I practice, the better I will get. So, as long as I keep doing this, I should be able to finish them much faster in the upcoming weeks :)&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224658.jpg&quot; alt=&quot;Mashable&quot; /&gt;  &lt;/p&gt;
-
-&lt;p&gt;2.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224707.jpg&quot; alt=&quot;Penguin Books&quot; /&gt;  &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224716.jpg&quot; alt=&quot;The New York Times&quot; /&gt;  &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224724.jpg&quot; alt=&quot;Medium&quot; /&gt;  &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224733.jpg&quot; alt=&quot;Roomba Product Page on Amazon&quot; /&gt;  &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224742.jpg&quot; alt=&quot;Fuzzco’s ‘what we do’ page&quot; /&gt;  &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224749.jpg&quot; alt=&quot;Art of the Menu&quot; /&gt;  &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224757.jpg&quot; alt=&quot;Your own Github Profile Page&quot; /&gt;  &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224803.jpg&quot; alt=&quot;Nest Thermostat&quot; /&gt;  &lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224816.jpg&quot; alt=&quot;Time Magazine&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224658.jpg&quot; alt=&quot;Mashable&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224707.jpg&quot; alt=&quot;Penguin Books&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224716.jpg&quot; alt=&quot;The New York Times&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224724.jpg&quot; alt=&quot;Medium&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224733.jpg&quot; alt=&quot;Roomba Product Page on Amazon&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224742.jpg&quot; alt=&quot;Fuzzco’s ‘what we do’ page&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224749.jpg&quot; alt=&quot;Art of the Menu&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224757.jpg&quot; alt=&quot;Your own Github Profile Page&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224803.jpg&quot; alt=&quot;Nest Thermostat&quot; /&gt;  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224816.jpg&quot; alt=&quot;Time Magazine&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
 </description>
         <pubDate>Wed, 11 Feb 2015 14:00:00 -0600</pubDate>

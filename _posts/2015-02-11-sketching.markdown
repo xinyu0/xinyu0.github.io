@@ -8,50 +8,30 @@ After 2 weeks of dabbling with Html Css, playing with Codepen, ITerm, github, an
 
 Grids are good. Learning it vs. actually putting it into use are 2 different things. Luckily, we don't have to design some layouts right away. Our homework assignments were to sketch on paper a few pre-exisitng websites. 
 
-I am very much excited to work on this assignment. I like to draw since I was a kid, despite most of my sketches are ugly. Also, due to lacking of ideas, I haven't been doing it for many years. It feels good to sketch again. 
+I was very excited to work on this assignment. I like to draw since I was a kid, despite most of my sketches are ugly. Also, due to lacking of ideas, I haven't been doing it for many years. It feels good to sketch again. 
 
-I spent an average of 40 to 60 minutes per sketch, and yes, it's not easy to draw a straight line. 
+I spent on average 40 to 60 minutes on each sketch. Even though, these are by no means good sketches. But the more I practice, the better I will get. So, as long as I keep doing this, I should be able to finish them much faster in the upcoming weeks :)
 
 
-1. 
+* ![Mashable]({{ site.url }}/images/2015_02_11/IMG_20150211_224658.jpg)  
 
-![Mashable]({{ site.url }}/images/2015_02_11/IMG_20150211_224658.jpg)  
+* ![Penguin Books]({{ site.url }}/images/2015_02_11/IMG_20150211_224707.jpg)  
 
-2.
+* ![The New York Times]({{ site.url }}/images/2015_02_11/IMG_20150211_224716.jpg)  
 
-![Penguin Books]({{ site.url }}/images/2015_02_11/IMG_20150211_224707.jpg)  
+* ![Medium]({{ site.url }}/images/2015_02_11/IMG_20150211_224724.jpg)  
 
-3. 
+* ![Roomba Product Page on Amazon]({{ site.url }}/images/2015_02_11/IMG_20150211_224733.jpg)  
 
-![The New York Times]({{ site.url }}/images/2015_02_11/IMG_20150211_224716.jpg)  
+* ![Fuzzco’s ‘what we do’ page]({{ site.url }}/images/2015_02_11/IMG_20150211_224742.jpg)  
 
-4. 
+* ![Art of the Menu]({{ site.url }}/images/2015_02_11/IMG_20150211_224749.jpg)  
 
-![Medium]({{ site.url }}/images/2015_02_11/IMG_20150211_224724.jpg)  
+* ![Your own Github Profile Page]({{ site.url }}/images/2015_02_11/IMG_20150211_224757.jpg)  
 
-5. 
+* ![Nest Thermostat]({{ site.url }}/images/2015_02_11/IMG_20150211_224803.jpg)  
 
-![Roomba Product Page on Amazon]({{ site.url }}/images/2015_02_11/IMG_20150211_224733.jpg)  
-
-6. 
-
-![Fuzzco’s ‘what we do’ page]({{ site.url }}/images/2015_02_11/IMG_20150211_224742.jpg)  
-
-7. 
-
-![Art of the Menu]({{ site.url }}/images/2015_02_11/IMG_20150211_224749.jpg)  
-
-8. 
-
-![Your own Github Profile Page]({{ site.url }}/images/2015_02_11/IMG_20150211_224757.jpg)  
-
-9. 
-
-![Nest Thermostat]({{ site.url }}/images/2015_02_11/IMG_20150211_224803.jpg)  
-
-10. 
-
-![Time Magazine]({{ site.url }}/images/2015_02_11/IMG_20150211_224816.jpg)
+* ![Time Magazine]({{ site.url }}/images/2015_02_11/IMG_20150211_224816.jpg)
 
 
 

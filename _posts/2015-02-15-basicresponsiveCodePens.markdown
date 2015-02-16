@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Basic Responsive CodePens"
+title:  "Basic responsive CodePens"
 date:   2015-02-15
 tags: iron_yard
 ---
