@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "6 takeaways from responsive retrofitting homework review"
-date:   2015-02-17 
+date:   2015-02-17 14:00:00
 tags: iron_yard, rwd, retrofit
 ---
 Today we had a review on our first retrofitting homework.Here are the 6 things that I learned about working on a retrofitting project:
