@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Responsive web design sketch"
-date:   2015-02-17 20:00:00
+date:   2015-02-18 20:00:00
 tags: iron_yard, homework
 ---
 * ![P Terrys]({{ site.url }}/images/2015_02_17/IMG_20150217_223758.jpg)  
