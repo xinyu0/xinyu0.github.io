@@ -1,6 +1,0 @@
----
-layout: post
-title:  "Friday"
-date:   2015-02-13
-tags: iron_yard
----
