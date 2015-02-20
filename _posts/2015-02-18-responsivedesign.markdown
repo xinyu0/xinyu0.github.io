@@ -6,7 +6,7 @@ tags: iron_yard, rwd
 ---
 We've been talking about the responsive web design in the last 2-3 lectures. It seems a lot people are embracing it because it's the new hot thing. I very much like rwd as one of many solutions in web design, and surprisingly the coding part is not as hard as I thought. But just as Sam talked a lot in class, rwd is not the solution for everything. 
 
-We checked a few big websites today in class to see if they were responsible. The ratio is approximately 50/50. So to use or not use rwd (as a tool) ultimately has to do with the need of users. I also have been playing with a few sites in my free time, and came up with 3 conclusions that are highly subjective (and mostly likely wrong.) Feel free to correct me.
+We checked a few big websites today in class to see if they were responsive. The ratio is approximately 50/50. So to use or not use rwd (as a tool) ultimately has to do with the need of users. I also have been playing with a few sites in my free time, and came up with 3 conclusions that are highly subjective (and mostly likely wrong.) Feel free to correct me.
 
 1. Yes, your site needs to be responsive. Sites like blogs, news sites, or any sites with long articles that I like to use my phone to read when my laptop or tablets are out of reach. 
 
