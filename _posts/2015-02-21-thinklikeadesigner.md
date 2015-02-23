@@ -9,5 +9,4 @@ I always wonder how designers became that way. how they see opportunities around
 
 Recently, more and more often I found myself asking questions like "do I like this design" and "why" and if i don't like it "why not?" Just when I was asking these questions, I realized I was exercising my brain, and the more I do this, the stronger it gets. 
 
-so what questions shall we ask everyday?
 
