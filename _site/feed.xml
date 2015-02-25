@@ -6,32 +6,26 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-<<<<<<< HEAD
-    <pubDate>Sun, 22 Feb 2015 23:12:57 -0600</pubDate>
-    <lastBuildDate>Sun, 22 Feb 2015 23:12:57 -0600</lastBuildDate>
+    <pubDate>Tue, 24 Feb 2015 22:35:41 -0600</pubDate>
+    <lastBuildDate>Tue, 24 Feb 2015 22:35:41 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Wordlist</title>
-        <description>&lt;p&gt;India  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/c524b4a9ab71f5e538d64e1df3797c12ec4588fect3t7vR&quot;&gt;typecast&lt;/a&gt;&lt;br /&gt;
-Spices  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/1737c665c8e5f914688361fb4ee0901b40e4cf12T2LMhC&quot;&gt;typecast&lt;/a&gt;  &lt;br /&gt;
-Spicy / hot  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/7fcec099a67679c867025d850c9ac6a8d96a99962t&quot;&gt;typecast&lt;/a&gt;&lt;br /&gt;
-Quick &amp;amp; causal  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/000a359db85b91b5127c89a919a9e10a57fe64302Ng3wP&quot;&gt;typecast&lt;/a&gt;&lt;br /&gt;
-Green / eco-friendly  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/ccf2168dd1e6e311b02e7f5e5d25eb35000b230ebwZHk&quot;&gt;typecast&lt;/a&gt;&lt;br /&gt;
-Fresh  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/d8e0749ec9052ad18f13506640f5a74fbfc6945c3VRXHmvvf8&quot;&gt;typecast&lt;/a&gt;&lt;br /&gt;
-Authentic / traditional  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/4ced0bc2ac3719077510ef323456402cb28c7aa2-cTdcJ4mt&quot;&gt;typecast&lt;/a&gt;&lt;br /&gt;
-Contemporary  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/7680500752c4a9c14932d069400dd0ca51faccffTHcQdPWg&quot;&gt;typecast&lt;/a&gt;&lt;br /&gt;
-Affordable  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/20f95b9ed333c0990572503219743b4ecfaa2499W&quot;&gt;typecast&lt;/a&gt;&lt;br /&gt;
-Fun, Bollywood &amp;amp; dance  &lt;a href=&quot;http://typecast.com/cq8YdKcjRz/share/f660567e29dda4ab66ea5dcddbffa16827c9415aqYy&quot;&gt;typecast&lt;/a&gt;  &lt;/p&gt;
-=======
-    <pubDate>Mon, 23 Feb 2015 01:22:24 -0600</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2015 01:22:24 -0600</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+        <title>Start with why</title>
+        <description>&lt;p&gt;Right now we are here at week 5 and this is by far the hardest week for me in my web design class. While learning millions of new concepts and doing all the homework assignments, I decided to take a 10-20 minutes break to rewatch the “start with why” talk by Simon Sinek. There are a few reasons for this: first, I lost the “why”. Just kidding! what I meant is, we started to do more and more design critiques this week. So we have to look at each other’s work and communicate what looks good and what doesn’t. I’m having a hard time of this, and I don’t even know how to defend my own works most of the time, so knowing “why” some designs work and “why” you do something some way is very important. Second, 2 of my fellow classmates gave a design talk on Monday on grids and it kind of blew my mind. I won’t call myself a thinker but I asked myself why I like the talk so much. What I realized later was they talked a lot about “why” as a designer or a developer you need grids, and how much PAIN it will cause you if you don’t use it. You can call design a kind of communication, a message, a way to achieve a goal. Every design has its “why”…web design, product design, fashion design…I know, I have said the word “why” about a million times, but really, start with why…&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Feb 2015 08:00:00 -0600</pubDate>
+        <link>http://xinyu0.github.io/2015/02/24/styletiles.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/24/styletiles.html</guid>
+        
+        <category>thoughts</category>
+        
+        
+      </item>
     
       <item>
         <title>Project: Wordlist (in progress)</title>
         <description>&lt;p&gt;This week we started on our first major project on redesigning a website from one of the local restaurants. We picked a restaurant and will have 5 responsive web pages redesigned at the end. This series of blog posts will document my process from beginning to end. &lt;/p&gt;
->>>>>>> origin/gh-pages
 
 &lt;p&gt;The first step in our project is creating a word list of everything we can think of about the restaurant. I picked Tarka. Here are a list words I came up with (I will add more later). &lt;/p&gt;
 
@@ -280,59 +274,6 @@ I always wonder how designers became that way; how do they see opportunities aro
         <pubDate>Wed, 11 Feb 2015 15:00:00 -0600</pubDate>
         <link>http://xinyu0.github.io/2015/02/11/sketching.html</link>
         <guid isPermaLink="true">http://xinyu0.github.io/2015/02/11/sketching.html</guid>
-        
-        <category>iron_yard</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Learning grids &amp; practicing sketching</title>
-        <description>&lt;p&gt;After 2 weeks of dabbling with Html Css, playing with Codepen, ITerm, github, and doing all sorts of coding stuff, this week we kind of switched gear and started talking about grids, and how they were used on the web. Of course, before this week’s lecture, even though I know that the layout of a website wasn’t just a random choice, I wasn’t very aware of grids, and didn’t know how they were used. Learning that you can chop up a web page into 10 columns, 12 columns is very interesting, and now I know in the future I can have a system to apply when designing the layout rather than just lining things up based on my intuition. &lt;/p&gt;
-
-&lt;p&gt;Grids are good. Learning it vs. actually putting it into use are 2 different things. Luckily, we don’t have to design some layouts right away. Our homework assignments were to sketch on paper a few pre-exisitng websites. &lt;/p&gt;
-
-&lt;p&gt;I was very excited to work on this assignment. I like to draw since I was a kid, despite most of my sketches are ugly. Also, due to lacking of ideas, I haven’t been doing it for many years. It feels good to sketch again. &lt;/p&gt;
-
-&lt;p&gt;I spent on average 40 to 60 minutes on each sketch. Even though, these are by no means good sketches. But the more I practice, the better I will get. So, as long as I keep doing this, I should be able to finish them much faster in the upcoming weeks :)&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224658.jpg&quot; alt=&quot;Mashable&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224707.jpg&quot; alt=&quot;Penguin Books&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224716.jpg&quot; alt=&quot;The New York Times&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224724.jpg&quot; alt=&quot;Medium&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224733.jpg&quot; alt=&quot;Roomba Product Page on Amazon&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224742.jpg&quot; alt=&quot;Fuzzco’s ‘what we do’ page&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224749.jpg&quot; alt=&quot;Art of the Menu&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224757.jpg&quot; alt=&quot;Your own Github Profile Page&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224803.jpg&quot; alt=&quot;Nest Thermostat&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_11/IMG_20150211_224816.jpg&quot; alt=&quot;Time Magazine&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Wed, 11 Feb 2015 14:00:00 -0600</pubDate>
-        <link>http://xinyu0.github.io/2015/02/11/sketching2.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/11/sketching2.html</guid>
         
         <category>iron_yard</category>
         
