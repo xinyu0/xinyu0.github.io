@@ -6,3 +6,5 @@ tags: iron_yard, geniuses
 comments: true
 ---
 "Design is thinking made visual." - Saul Bass
+"Design is art people use." - Ellen Lupton
+

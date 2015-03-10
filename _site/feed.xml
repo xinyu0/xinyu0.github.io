@@ -6,9 +6,45 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Feb 2015 22:35:41 -0600</pubDate>
-    <lastBuildDate>Tue, 24 Feb 2015 22:35:41 -0600</lastBuildDate>
+    <pubDate>Fri, 06 Mar 2015 13:17:45 -0600</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2015 13:17:45 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Quotes I like</title>
+        <description>&lt;p&gt;“Design is thinking made visual.” - Saul Bass
+“Design is art people use.” - &lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Mar 2015 00:00:00 -0600</pubDate>
+        <link>http://xinyu0.github.io/2015/03/05/quotes_i_like.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/2015/03/05/quotes_i_like.html</guid>
+        
+        <category>iron_yard,</category>
+        
+        <category>geniuses</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>a trophy is a trophy</title>
+        <description>&lt;p&gt;A trophy is a trophy. Size doesn’t matter. 
+Today is probably the best day I’ve had since I graduated from college.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_02/screen_shot.png&quot; alt=&quot;hoho&quot; /&gt; &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 -0600</pubDate>
+        <link>http://xinyu0.github.io/2015/03/02/yay.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/2015/03/02/yay.html</guid>
+        
+        <category>iron_yard,</category>
+        
+        <category>good_day</category>
+        
+        
+      </item>
     
       <item>
         <title>Start with why</title>
@@ -212,70 +248,6 @@ I always wonder how designers became that way; how do they see opportunities aro
         <category>rwd,</category>
         
         <category>retrofit</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Basic responsive CodePens</title>
-        <description>&lt;p&gt;Below shows four responsive CodePens that I’ve worked on after our first class on responsive web design. &lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Starting with two 200 x 200px boxes, and as the screen size gets bigger, at the 800px breakpoint, the width of these boxes will become 50% of the screen size and the boxes will float next to each other.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;RNQeBg&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/RNQeBg/&quot;&gt;RNQeBg&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Add a third box that is blue and 100%. At 800px: each box is 30.333% with a margin of 4.5% between the divs, but no margin on the right of the blue box.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;MYQPPd&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/MYQPPd/&quot;&gt;MYQPPd&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Add a new breakpoint at 500px, where boxes at 48% with a margin of 4% in between them and no margin on the outside. &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;yyvRQr&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/yyvRQr/&quot;&gt;yyvRQr&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A completely different box. At global: it is 90% wide, 100px tall, pink, and centered. At 650px, it should be 80% and 200px tall. At 960px, it should be 70% wide, 300px tall, and should stop growing at 1000px.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;dPdgwv&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/dPdgwv/&quot;&gt;dPdgwv&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A 1-column grid that breaks into 12-column grids at 500px.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;0&quot; data-slug-hash=&quot;vEdMgw&quot; data-default-tab=&quot;result&quot; data-user=&quot;xinyu&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/xinyu/pen/vEdMgw/&quot;&gt;vEdMgw&lt;/a&gt; by xinyu wang (&lt;a href=&quot;http://codepen.io/xinyu&quot;&gt;@xinyu&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Sun, 15 Feb 2015 00:00:00 -0600</pubDate>
-        <link>http://xinyu0.github.io/2015/02/15/basicresponsiveCodePens.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/15/basicresponsiveCodePens.html</guid>
-        
-        <category>iron_yard,</category>
-        
-        <category>homework</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>About sketching</title>
-        <description>&lt;p&gt;In today’s class, Sam talked a lot about sketching, and why it’s so important in the web design process. What I learned is “as a web designer, sketching is not about getting everything perfect. You don’t have to draw the lines straight and have all of your boxes the same size. The point is to get your idea out of your head and down on paper. So don’t worry about the details, you can work on them and clean things up later on.” Also, there is an article from “A List Apart” that talks about this in more details &lt;a href=&quot;http://alistapart.com/article/sketching-the-visual-thinking-power-tool&quot;&gt;click&lt;/a&gt;. I found it very helpful. &lt;/p&gt;
-</description>
-        <pubDate>Wed, 11 Feb 2015 15:00:00 -0600</pubDate>
-        <link>http://xinyu0.github.io/2015/02/11/sketching.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/11/sketching.html</guid>
-        
-        <category>iron_yard</category>
         
         
       </item>
