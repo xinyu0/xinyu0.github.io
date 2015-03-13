@@ -6,14 +6,47 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 06 Mar 2015 13:17:45 -0600</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2015 13:17:45 -0600</lastBuildDate>
+    <pubDate>Thu, 12 Mar 2015 20:25:24 -0500</pubDate>
+    <lastBuildDate>Thu, 12 Mar 2015 20:25:24 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Tarka logo sketches &amp; reiteration</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150309_192959.jpg&quot; alt=&quot;logo1&quot; /&gt; 
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150309_193509.jpg&quot; alt=&quot;logo1&quot; /&gt;  &lt;/p&gt;
+
+&lt;p&gt;word-list&lt;br /&gt;
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150310_125647.jpg&quot; alt=&quot;logo1&quot; /&gt;  &lt;/p&gt;
+
+&lt;p&gt;morphological matrices&lt;br /&gt;
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150310_125701.jpg&quot; alt=&quot;logo1&quot; /&gt; 
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150312_201607.jpg&quot; alt=&quot;logo1&quot; /&gt;  &lt;/p&gt;
+
+&lt;p&gt;initial sketches&lt;br /&gt;
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150310_125709.jpg&quot; alt=&quot;logo1&quot; /&gt; 
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150310_125719.jpg&quot; alt=&quot;logo1&quot; /&gt; 
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150310_125745.jpg&quot; alt=&quot;logo1&quot; /&gt; 
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150310_125753.jpg&quot; alt=&quot;logo1&quot; /&gt;  &lt;/p&gt;
+
+&lt;p&gt;reiterations&lt;br /&gt;
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150311_220116.jpg&quot; alt=&quot;logo1&quot; /&gt; 
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150311_220127.jpg&quot; alt=&quot;logo1&quot; /&gt;&lt;br /&gt;
+&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_10/IMG_20150312_201359.jpg&quot; alt=&quot;logo1&quot; /&gt; &lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Mar 2015 15:00:00 -0500</pubDate>
+        <link>http://xinyu0.github.io/2015/03/10/tarka_logo.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/2015/03/10/tarka_logo.html</guid>
+        
+        <category>iron_yard,tarka</category>
+        
+        
+      </item>
     
       <item>
         <title>Quotes I like</title>
         <description>&lt;p&gt;“Design is thinking made visual.” - Saul Bass
-“Design is art people use.” - &lt;/p&gt;
+“Design is art people use.” - Ellen Lupton&lt;/p&gt;
+
 </description>
         <pubDate>Thu, 05 Mar 2015 00:00:00 -0600</pubDate>
         <link>http://xinyu0.github.io/2015/03/05/quotes_i_like.html</link>
@@ -222,32 +255,6 @@ I always wonder how designers became that way; how do they see opportunities aro
         <category>iron_yard,</category>
         
         <category>homework</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>6 takeaways from responsive retrofitting homework review</title>
-        <description>&lt;p&gt;Today we had a review on our first retrofitting homework.Here are the 6 things that I learned about working on a retrofitting project:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;It’s not supposed to be an easy thing to do. &lt;/li&gt;
-  &lt;li&gt;You may have to scrap a lot of the existing CSS. &lt;/li&gt;
-  &lt;li&gt;It’s easier to first get everything in the right place. Then you can clean things up. &lt;/li&gt;
-  &lt;li&gt;It’s okay to have whitespace on the global version. &lt;/li&gt;
-  &lt;li&gt;Don’t worry about adding extra divs for the styling purpose only.&lt;/li&gt;
-  &lt;li&gt;When you get stuck, try to talk about what you want to do or explain it someone else. You might end up figuring things out just by talking about it. (aka “Rubber duck debugging”)&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Tue, 17 Feb 2015 08:00:00 -0600</pubDate>
-        <link>http://xinyu0.github.io/2015/02/17/surfandpaddle.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/2015/02/17/surfandpaddle.html</guid>
-        
-        <category>iron_yard,</category>
-        
-        <category>rwd,</category>
-        
-        <category>retrofit</category>
         
         
       </item>
