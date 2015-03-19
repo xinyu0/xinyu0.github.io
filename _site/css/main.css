@@ -582,7 +582,7 @@ pre {
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
-  background: url("http://xinyu0.github.io/images/home/footerbackground.png") top center no-repeat; }
+  background: url("http://xinyu0.github.io/images/home/footerbackground.png") top center; }
 
 .footer-heading {
   font-size: 18px;
@@ -724,6 +724,9 @@ pre {
   width: 100%;
   background-size: cover;
   text-align: right; }
+
+.hello {
+  width: 800px; }
 
 /**
  * Syntax highlighting styles
