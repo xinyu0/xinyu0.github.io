@@ -697,6 +697,10 @@ pre {
   height: 500px;
   background: url(http://xinyu0.github.io/images/home/travel0.jpg) top center no-repeat; }
 
+.logo {
+  width: 400px;
+  margin-left: 9%; }
+
 /**
  * Syntax highlighting styles
  */
