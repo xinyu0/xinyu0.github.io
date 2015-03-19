@@ -472,14 +472,14 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(80% - (30px * 2));
+  max-width: calc(80% - (30px * 2));
   margin-right: auto;
   margin-left: auto; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 80%) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(80% - (30px));
+      max-width: calc(80% - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -522,14 +522,18 @@ pre {
     line-height: 1.6;
     text-decoration: none;
     display: block;
-    text-align: right;
+    text-align: center;
     margin-right: 12%;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 3em;
     width: 100%;
     padding: 5px;
     line-height: 1.5;
-    border-radius: 50%; }
+    border-radius: 50%;
+    background: #3a3a3a;
+    background: rgba(58, 58, 58, 0.5); }
     .site-nav .page-link:hover {
       color: white;
       background: #ff5555;
@@ -547,7 +551,6 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #eeeeee;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right; }
@@ -612,7 +615,7 @@ pre {
   width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 80%) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (30px / 2));
@@ -656,7 +659,7 @@ pre {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 80%) {
     .post-title {
       font-size: 36px; } }
 
@@ -664,17 +667,17 @@ pre {
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 80%) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 80%) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 80%) {
       .post-content h4 {
         font-size: 18px; } }
 
@@ -698,20 +701,31 @@ pre {
 .myblog {
   font-size: 2em;
   padding: 2em;
-  clear: both;
+  clear: left;
   float: left;
-  width: 40%;
+  width: 39%;
   background: url(http://xinyu0.github.io/images/home/power_tower.png) top center no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  margin-right: -3%; }
 
 .about {
   font-size: 2em;
   padding: 2em;
-  clear: both;
   float: right;
-  width: 40%;
+  width: 39%;
   background: url(http://xinyu0.github.io/images/home/railroad.png) top center no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  margin-left: -3%;
+  text-align: right; }
+
+.contact {
+  font-size: 2em;
+  padding: 2em;
+  float: right;
+  width: 100%;
+  background: url(http://xinyu0.github.io/images/home/trainfooter.png) top center no-repeat;
+  background-size: cover;
+  text-align: right; }
 
 /**
  * Syntax highlighting styles

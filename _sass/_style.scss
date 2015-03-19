@@ -14,20 +14,36 @@
 .myblog {
     font-size: 2em;
     padding:2em;
-    clear:both;
+    clear:left;
     float: left;
-    width:40%;
+    width:39%;
     background: url(http://xinyu0.github.io/images/home/power_tower.png)top center no-repeat;
     background-size: cover;
+    margin-right: -3%;
 }
 
 .about {
     font-size: 2em;
     padding:2em;
-    clear:both;
+    // clear:both;
     float: right;
-    width:40%;
+    width:39%;
     background: url(http://xinyu0.github.io/images/home/railroad.png)top center no-repeat;
     background-size: cover;
+    margin-left: -3%;
+    text-align: right;
+
+}
+
+.contact {
+    font-size: 2em;
+    padding:2em;
+    // clear:both;
+    float: right;
+    width:100%;
+    background: url(http://xinyu0.github.io/images/home/trainfooter.png)top center no-repeat;
+    background-size: cover;
+    text-align: right;
+
 }
 // * {border:1px red solid;}
