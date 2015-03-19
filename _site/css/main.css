@@ -696,11 +696,22 @@ pre {
   float: left; }
 
 .myblog {
+  font-size: 2em;
+  padding: 2em;
   clear: both;
-  background: url(); }
+  float: left;
+  width: 40%;
+  background: url(http://xinyu0.github.io/images/home/power_tower.png) top center no-repeat;
+  background-size: cover; }
 
-* {
-  border: 1px red solid; }
+.about {
+  font-size: 2em;
+  padding: 2em;
+  clear: both;
+  float: right;
+  width: 40%;
+  background: url(http://xinyu0.github.io/images/home/railroad.png) top center no-repeat;
+  background-size: cover; }
 
 /**
  * Syntax highlighting styles
