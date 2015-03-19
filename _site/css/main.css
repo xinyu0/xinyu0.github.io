@@ -1,3 +1,7 @@
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding-right: 15px;
+    padding-left: 15px; } }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -369,9 +373,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: "franklin-gothic-urw-cond", Helvetica, Arial, sans-serif;
+  font-family: "alternate-gothic-no-3-d", "franklin-gothic-urw-cond", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   font-weight: 300;
   color: #111;
   background-color: #eeeeee;
@@ -471,9 +475,7 @@ pre {
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px; }
+  margin-left: auto; }
   @media screen and (max-width: 800px) {
     .wrapper {
       max-width: -webkit-calc(800px - (30px));
@@ -512,38 +514,34 @@ pre {
   .site-header::after {
     opacity: 0.5; }
 
-.site-title {
-  font-size: 26px;
-  line-height: 56px;
-  letter-spacing: -1px;
-  margin-bottom: 0;
-  float: left; }
-  .site-title, .site-title:visited {
-    color: #424242; }
-
 .site-nav {
   float: right;
-  line-height: 56px; }
-  .site-nav .menu-icon {
-    display: none; }
+  background: transparent; }
   .site-nav .page-link {
-    color: #111;
-    line-height: 1.5;
-    padding: 5px;
+    color: #eeeeee;
+    line-height: 1.6;
     text-decoration: none;
-    border-radius: 5px;
-    border: 2px dotted #111; }
-    .site-nav .page-link:not(:first-child) {
-      margin-left: 10px; }
+    display: block;
+    text-align: right;
+    margin-right: 12%;
+    font-weight: 500;
+    font-size: 3em;
+    width: 100%;
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 50%; }
     .site-nav .page-link:hover {
       color: white;
-      background: #ff5555; }
+      background: #ff5555;
+      background: rgba(255, 85, 85, 0.5); }
     .site-nav .page-link:first-child:hover {
       color: white;
-      background: #ff2222; }
+      background: #2c6358;
+      background: rgba(44, 99, 88, 0.5); }
     .site-nav .page-link:last-child:hover {
       color: white;
-      background: #ff8888; }
+      background: #f6b633;
+      background: rgba(246, 182, 51, 0.5); }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -567,8 +565,7 @@ pre {
           .site-nav .menu-icon > svg path {
             fill: #424242; }
       .site-nav .trigger {
-        clear: both;
-        display: none; }
+        display: block; }
       .site-nav:hover .trigger {
         display: block;
         padding-bottom: 5px; }
@@ -632,10 +629,6 @@ pre {
 /**
  * Page content
  */
-.page-content {
-  padding: 30px 0;
-  background: url("http://xinyu0.github.io/images/headerbackground.png"); }
-
 .page-heading {
   font-size: 20px; }
 
@@ -694,12 +687,20 @@ pre {
 
 .heroimage {
   width: 100%;
-  height: 500px;
-  background: url(http://xinyu0.github.io/images/home/travel0.jpg) top center no-repeat; }
+  height: 300px;
+  background: url(http://xinyu0.github.io/images/home/travel0.jpg) top center no-repeat, #3A3A3A;
+  background-size: 600px; }
 
 .logo {
-  width: 400px;
-  margin-left: 9%; }
+  width: 300px;
+  float: left; }
+
+.myblog {
+  clear: both;
+  background: url(); }
+
+* {
+  border: 1px red solid; }
 
 /**
  * Syntax highlighting styles
