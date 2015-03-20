@@ -3,6 +3,7 @@ layout: post
 title:  "Tarka logo sketches & reiteration"
 date:   2015-03-10 20:00:00
 tags: iron_yard,tarka
+categories: blog
 ---
 ![logo1]({{ site.url }}/images/2015_03_10/IMG_20150309_192959.jpg) 
 ![logo1]({{ site.url }}/images/2015_03_10/IMG_20150309_193509.jpg)  

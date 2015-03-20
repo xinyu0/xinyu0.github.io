@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Start with why"
+date:   2015-02-24 14:00:00
+tags: thoughts
+---
+Right now we are here at week 5 and this is by far the hardest week for me in my web design class. While learning millions of new concepts and doing all the homework assignments, I decided to take a 10-20 minutes break to rewatch the "start with why" talk by Simon Sinek. There are a few reasons for this: first, I lost the "why". Just kidding! what I meant is, we started to do more and more design critiques this week. So we have to look at each other's work and communicate what looks good and what doesn't. I'm having a hard time of this, and I don't even know how to defend my own works most of the time, so knowing "why" some designs work and "why" you do something some way is very important. Second, 2 of my fellow classmates gave a design talk on Monday on grids and it kind of blew my mind. I won't call myself a thinker but I asked myself why I like the talk so much. What I realized later was they talked a lot about "why" as a designer or a developer you need grids, and how much PAIN it will cause you if you don't use it. You can call design a kind of communication, a message, a way to achieve a goal. Every design has its "why"...web design, product design, fashion design...I know, I have said the word "why" about a million times, but really, start with why...
