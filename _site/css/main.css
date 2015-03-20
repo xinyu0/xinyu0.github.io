@@ -764,6 +764,23 @@ pre {
   box-sizing: border-box;
   margin-bottom: 1em; }
 
+.projectpic {
+  transform: rotate(10deg);
+  border: 5px #474747 solid; }
+  .projectpic::before {
+    content: "hi";
+    z-index: 999;
+    width: 100px;
+    height: 100px;
+    background: black; }
+
+.projectpic ::before {
+  content: "hi";
+  z-index: 999;
+  width: 100px;
+  height: 100px;
+  background: black; }
+
 /**
  * Syntax highlighting styles
  */

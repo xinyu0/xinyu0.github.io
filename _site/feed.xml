@@ -6,9 +6,31 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Mar 2015 00:56:36 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Mar 2015 00:56:36 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Mar 2015 01:18:55 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Mar 2015 01:18:55 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>tarka</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/projects/suitcase.png&quot; /&gt;
+&lt;img src=&quot;http://xinyu0.github.io/images/home/footerbackground.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“Design is thinking made visual.” - Saul Bass
+“Design is art people use.” - Ellen Lupton&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 19 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://xinyu0.github.io/project/2015/03/19/tarka.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/project/2015/03/19/tarka.html</guid>
+        
+        <category>iron_yard,</category>
+        
+        <category>geniuses</category>
+        
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>Tarka logo sketches &amp; reiteration</title>
@@ -240,39 +262,6 @@ I always wonder how designers became that way; how do they see opportunities aro
         <category>iron_yard,</category>
         
         <category>rwd</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Responsive web design sketch</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_17/IMG_20150217_223758.jpg&quot; alt=&quot;P Terrys&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_17/IMG_20150217_223806.jpg&quot; alt=&quot;Salt Lick BBQ&quot; /&gt; &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_17/IMG_20150217_223813.jpg&quot; alt=&quot;Tarka Indian Kitchen&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_17/IMG_20150217_223818.jpg&quot; alt=&quot;Fair Bean Coffee&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_17/IMG_20150217_223828.jpg&quot; alt=&quot;Austin Beer Garden &amp;amp; Brewery&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 17 Feb 2015 14:00:00 -0600</pubDate>
-        <link>http://xinyu0.github.io/blog/2015/02/17/rwdsketching.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/blog/2015/02/17/rwdsketching.html</guid>
-        
-        <category>iron_yard,</category>
-        
-        <category>homework</category>
         
         
         <category>blog</category>

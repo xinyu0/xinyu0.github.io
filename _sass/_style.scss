@@ -63,4 +63,23 @@
     margin-bottom: 1em;
 }
 
+.projectpic {
+    transform:rotate(10deg);
+    border:5px $brand-color solid;
+    &::before {
+        content: "hi";
+        z-index: 999;
+        width:100px;
+        height:100px;
+        background: black;
+    }
+}
+
+.projectpic ::before {
+    content: "hi";
+        z-index: 999;
+        width:100px;
+        height:100px;
+        background: black;
+}
 // * {border:1px red solid;}
