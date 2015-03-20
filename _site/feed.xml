@@ -6,14 +6,36 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Mar 2015 01:18:55 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Mar 2015 01:18:55 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Mar 2015 12:59:19 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Mar 2015 12:59:19 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>tarka</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/projects/suitcase.png&quot; /&gt;
+        <description>&lt;p&gt;second post 
+&lt;img src=&quot;http://xinyu0.github.io/images/projects/suitcase.png&quot; /&gt;
 &lt;img src=&quot;http://xinyu0.github.io/images/home/footerbackground.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“Design is thinking made visual.” - Saul Bass
+“Design is art people use.” - Ellen Lupton&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 20 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://xinyu0.github.io/project/2015/03/20/tarka%20copy.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/project/2015/03/20/tarka%20copy.html</guid>
+        
+        <category>iron_yard,</category>
+        
+        <category>geniuses</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>tarka</title>
+        <description>&lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/projects/suitcase.png&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;“Design is thinking made visual.” - Saul Bass
 “Design is art people use.” - Ellen Lupton&lt;/p&gt;
@@ -79,28 +101,6 @@
         <category>iron_yard,</category>
         
         <category>geniuses</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>a trophy is a trophy</title>
-        <description>&lt;p&gt;A trophy is a trophy. Size doesn’t matter. 
-Today is probably the best day I’ve had since I graduated from college.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_03_02/screen_shot.png&quot; alt=&quot;hoho&quot; /&gt; &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 02 Mar 2015 00:00:00 -0600</pubDate>
-        <link>http://xinyu0.github.io/blog/2015/03/02/yay.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/blog/2015/03/02/yay.html</guid>
-        
-        <category>iron_yard,</category>
-        
-        <category>good_day</category>
         
         
         <category>blog</category>
