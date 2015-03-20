@@ -766,20 +766,22 @@ pre {
 
 .projectpic {
   transform: rotate(10deg);
-  border: 5px #474747 solid; }
+  border: 5px #474747 solid;
+  display: block;
+  width: 400px;
+  position: relative;
+  left: -27px;
+  height: 400px; }
   .projectpic::before {
-    content: "hi";
+    content: "";
     z-index: 999;
-    width: 100px;
-    height: 100px;
-    background: black; }
-
-.projectpic ::before {
-  content: "hi";
-  z-index: 999;
-  width: 100px;
-  height: 100px;
-  background: black; }
+    width: 80px;
+    height: 500px;
+    position: absolute;
+    top: -46px;
+    left: -30px;
+    background: #eeeeee;
+    transform: rotate(-10deg); }
 
 /**
  * Syntax highlighting styles

@@ -66,20 +66,24 @@
 .projectpic {
     transform:rotate(10deg);
     border:5px $brand-color solid;
+    display: block;
+    width:400px;
+    position:relative;
+    left:-27px;
+    height: 400px;
+
     &::before {
-        content: "hi";
+        content: "";
         z-index: 999;
-        width:100px;
-        height:100px;
-        background: black;
+        width:80px;
+        height:500px;
+        position:absolute;
+        top:-46px;
+        left:-30px;
+        background: $background-color;
+        transform:rotate(-10deg);
     }
 }
 
-.projectpic ::before {
-    content: "hi";
-        z-index: 999;
-        width:100px;
-        height:100px;
-        background: black;
-}
+
 // * {border:1px red solid;}
