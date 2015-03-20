@@ -120,8 +120,8 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    background: url("http://xinyu0.github.io/images/headerbackground.png");
-
+    background: url(http://xinyu0.github.io/images/home/footerbackground.png) top center;
+    
 }
 
 .footer-heading {
@@ -133,6 +133,7 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    li {float: right;}
 }
 
 .footer-col-wrapper {
@@ -146,6 +147,7 @@
     float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+    font-size: 1.5em;
 }
 
 .footer-col-1 {
@@ -156,6 +158,7 @@
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
+    float:right;
 }
 
 .footer-col-3 {
