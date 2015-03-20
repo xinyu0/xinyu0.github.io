@@ -16,7 +16,9 @@ $spacing-unit:     30px;
 $text-color:       #111;
 $link-color:		#eeeeee;
 $background-color: #eeeeee;
-$brand-color:      #ff5555;
+$brand-color:      #111;
+$p-background-color: #9F9F9F;
+$p-background-color2: rgba(58,58,58,0.5);
 
 
 $grey-color:       #828282;
@@ -24,7 +26,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    80%;
+$content-width:    960px;
 
 $on-palm:          600px;
 $on-laptop:        80%;

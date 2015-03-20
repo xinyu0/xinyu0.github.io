@@ -18,7 +18,8 @@
 			<use xlink:href="#SVGID_3_"  overflow="visible"/>
 		</clipPath>
 		<g clip-path="url(#SVGID_4_)">
-			<image overflow="visible" width="1005" height="539" xlink:href="railroad.png"  transform="matrix(0.6975 0 0 0.6975 -2 0)">
+			
+				<image overflow="visible" width="500" height="268" xlink:href="railroad.png"  transform="matrix(1.4022 0 0 1.4022 -2.0465 8.668914e-02)">
 			</image>
 		</g>
 	</g>
