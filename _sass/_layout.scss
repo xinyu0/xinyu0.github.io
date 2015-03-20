@@ -30,7 +30,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: 500;
-        font-size: 3em;
+        font-size: 2em;
         width:100%;
          padding: 5px;
          line-height:1.5;
@@ -121,6 +121,8 @@
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     background: url(http://xinyu0.github.io/images/home/footerbackground.png) top center;
+    max-height: 150px;
+    margin-top: 50px;
     
 }
 
@@ -131,9 +133,16 @@
 
 .contact-list,
 .social-media-list {
+
+    width:240px;
     list-style: none;
-    margin-left: 0;
-    li {float: right;}
+    margin: 0 auto;
+    overflow: hidden;
+    // padding-top: 30%;
+    li {float: right;
+
+        margin: 0 5px;}
+    
 }
 
 .footer-col-wrapper {
@@ -151,19 +160,34 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(10% - (#{$spacing-unit} / 2));
+    width:         calc(10% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
+    height:240px;
+    margin-top: -80PX;
     float:right;
+    background: url(http://xinyu0.github.io/images/home/suitcase.png) top center no-repeat;
+    background-size: 100%;
+    span {
+        display:block;
+        color:#474747;
+        padding-top: 15%;
+        font-size: 1.5em;
+        text-align: center;
+    }
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+    padding-top: 50px;
+    color:$text-color;
+    background:white;
+    opacity: 0.8;
 }
 
 @include media-query($on-laptop) {

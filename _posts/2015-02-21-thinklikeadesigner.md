@@ -3,6 +3,7 @@ layout: post
 title:  "Think like a designer"
 date:   2015-02-21 14:00:00
 tags: iron_yard
+categories: blog
 ---
 Yes, everything around us was designed by someone: the desk, the chair, the lamp...
 I always wonder how designers became that way; how do they see opportunities around them? how do they ask questions? and how do they create answers. 
