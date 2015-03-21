@@ -3,18 +3,23 @@ layout: default
 ---
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Portfolio</h1>
 
   <ul class="project-list">
     
     {% for post in site.posts %}
      {% if post.categories contains 'project' %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
+      <li class="portfolio_quick">
+        <img src="{{ post.thumbnails | prepend: site.baseurl }}"}}>
+        
+        <div>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </h2><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br>
+        {{ post.content | strip_html | truncatewords:49}}<br>
+            <a href="{{ post.url }}">Read more...</a><br>
+          </div>
+        
       </li>
     {% endif %}
     {% endfor %}

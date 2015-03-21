@@ -173,17 +173,10 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 3rem;
 }
 
-.post-list {
-    margin-left: 0;
-    list-style: none;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
 
 .post-meta {
     font-size: $small-font-size;
@@ -192,7 +185,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    // font-size: 24px;
 }
 
 
@@ -216,8 +209,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-    font-family: "adelle";
-    font-size: 1.1rem;
+    font-family: "mplus-1m";
+    font-size: 1rem;
 
     h2 {
         font-size: 32px;
