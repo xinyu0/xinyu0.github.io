@@ -6,23 +6,47 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Mar 2015 22:18:45 -0500</pubDate>
-    <lastBuildDate>Sat, 21 Mar 2015 22:18:45 -0500</lastBuildDate>
+    <pubDate>Sun, 22 Mar 2015 11:43:23 -0500</pubDate>
+    <lastBuildDate>Sun, 22 Mar 2015 11:43:23 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>tarka</title>
-        <description>&lt;p&gt;“Design is thinking made visual.” - Saul Bass
-“Design is art people use.” - Ellen Lupton&lt;/p&gt;
+        <title>GoodReads Redesign</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;Research	
+    &lt;ul&gt;
+      &lt;li&gt;Interviews (user, self, client)&lt;/li&gt;
+      &lt;li&gt;Word-listing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Competitor Market Study&lt;/li&gt;
+&lt;/ul&gt;
 
+&lt;p&gt;Amazon&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;* SWOT analysis
+	* What are their current strengths
+	* what are their current weaknesses
+	* what are their future opportunities
+	* what are their future threats?
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;** good color schemes 
+	*&lt;a href=&quot;http://www.muji.us/store/?area=header&quot;&gt;muji&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Style Tiles or &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Element Collages&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Comps (3-breakpoints)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </description>
-        <pubDate>Thu, 19 Mar 2015 00:00:00 -0500</pubDate>
-        <link>http://xinyu0.github.io/project/2015/03/19/tarka%20copy%204.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/project/2015/03/19/tarka%20copy%204.html</guid>
+        <pubDate>Sun, 22 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://xinyu0.github.io/project/2015/03/22/goodreads_redesign.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/project/2015/03/22/goodreads_redesign.html</guid>
         
-        <category>iron_yard,</category>
-        
-        <category>geniuses</category>
+        <category>iron_yard</category>
         
         
         <category>project</category>
