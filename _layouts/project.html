@@ -1,18 +1,29 @@
 ---
-layout: default
+layout: default_project
 ---
+
 <div class="projectpic">
-<img src="{{site.url}}/images/{{page.images}}">
+<img src="{{site.url}}/{{page.thumbnails}}">
 </div>
 
 <div class="post">
 
-  <header class="post-header">
+  <header class="project-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+    
+  
+	<p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	
+	
+	<h3>{{ page.descriptions }}</h3>
+	<h4>{{ page.type }}</h4>
+	
+	
 
-  <article class="post-content">
+ </header>
+
+  <article class="article-content">
+
     {{ content }}
     {{ page.tags }}
   </article>
