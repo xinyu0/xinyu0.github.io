@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
   .wrapper {
     padding-right: 15px;
     padding-left: 15px; } }
@@ -372,6 +372,12 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
 body {
   font-family: "alternate-gothic-no-3-d", "franklin-gothic-urw-cond", Helvetica, Arial, sans-serif;
   font-size: 20px;
@@ -471,16 +477,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(960px - (30px * 2));
-  max-width: calc(960px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto; }
-  @media screen and (max-width: 80%) {
+  max-width: -webkit-calc(960px - (30px));
+  max-width: calc(960px - (30px));
+  padding-right: 15px;
+  padding-left: 15px; }
+  @media screen and (min-width: 960px) {
     .wrapper {
-      max-width: -webkit-calc(960px - (30px));
-      max-width: calc(960px - (30px));
-      padding-right: 15px;
-      padding-left: 15px; } }
+      max-width: -webkit-calc(960px - (30px * 2));
+      max-width: calc(960px - (30px * 2));
+      margin-right: auto;
+      margin-left: auto; } }
 
 /**
  * Clearfix
@@ -491,24 +497,14 @@ pre {
   clear: both; }
 
 /**
- * Icons
- */
-.icon > svg {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  vertical-align: middle; }
-  .icon > svg path {
-    fill: #474747; }
-
-/**
  * Site header
  */
 .site-header {
   background: #3A3A3A;
   position: fixed;
   top: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 99; }
   .site-header::after {
     opacity: 0.5; }
 
@@ -519,23 +515,12 @@ pre {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
   background: url(http://xinyu0.github.io/images/home/footerbackground.png) top center;
-  max-height: 150px;
+  height: 150px;
   margin-top: 50px; }
 
 .footer-heading {
   font-size: 18px;
   margin-bottom: 15px; }
-
-.contact-list,
-.social-media-list {
-  width: 240px;
-  list-style: none;
-  margin: 0 auto;
-  overflow: hidden; }
-  .contact-list li,
-  .social-media-list li {
-    float: right;
-    margin: 0 5px; }
 
 .footer-col-wrapper {
   font-size: 15px;
@@ -543,20 +528,21 @@ pre {
   margin-left: -15px; }
 
 .footer-col {
-  float: left;
+  float: none;
+  width: -webkit-calc(100% - (30px / 2));
+  width: calc(100% - (30px / 2));
   margin-bottom: 15px;
   padding-left: 15px;
   font-size: 1.5em; }
 
-.footer-col-1 {
-  width: -webkit-calc(10% - (30px / 2));
-  width: calc(10% - (30px / 2)); }
-
 .footer-col-2 {
-  width: -webkit-calc(35% - (30px / 2));
-  width: calc(35% - (30px / 2));
+  width: -webkit-calc(80% - (30px / 2));
+  width: calc(80% - (30px / 2));
+  margin: 1rem 10%;
+  margin-top: 200px;
   height: 240px;
-  margin-top: -80PX;
+  position: relative;
+  top: -120px;
   float: right;
   background: url(http://xinyu0.github.io/images/home/suitcase.png) top center no-repeat;
   background-size: 100%; }
@@ -568,35 +554,92 @@ pre {
     text-align: center; }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
-  width: calc(45% - (30px / 2));
-  padding-top: 50px;
-  color: #111;
+  color: black;
   background: white;
   opacity: 0.8; }
 
-@media screen and (max-width: 80%) {
+@media screen and (min-width: 600px) {
+  .footer-col {
+    float: left; }
+
   .footer-col-1,
-  .footer-col-2 {
+  .footer-col-2,
+  .footer-col-3 {
     width: -webkit-calc(50% - (30px / 2));
     width: calc(50% - (30px / 2)); }
 
+  .footer-col-2 {
+    margin-left: 0;
+    margin-right: 30px;
+    margin-top: 0px; } }
+@media screen and (min-width: 960px) {
+  .footer-col-1 {
+    width: -webkit-calc(10% - (30px / 2));
+    width: calc(10% - (30px / 2)); }
+
+  .footer-col-2 {
+    width: -webkit-calc(35% - (30px / 2));
+    width: calc(35% - (30px / 2));
+    height: 240px;
+    position: relative;
+    top: -120px;
+    float: right;
+    background: url(http://xinyu0.github.io/images/home/suitcase.png) top center no-repeat;
+    background-size: 100%; }
+    .footer-col-2 span {
+      display: block;
+      color: #474747;
+      padding-top: 15%;
+      font-size: 1.5em;
+      text-align: center; }
+
   .footer-col-3 {
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
-@media screen and (max-width: 600px) {
-  .footer-col {
-    float: none;
-    width: -webkit-calc(100% - (30px / 2));
-    width: calc(100% - (30px / 2)); } }
+    width: -webkit-calc(45% - (30px / 2));
+    width: calc(45% - (30px / 2)); } }
+/**
+ * Icons
+ */
+.icon > svg {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #474747; }
+
+@media screen and (min-width: 600px) {
+  .icon > svg {
+    width: 30px;
+    height: 30px; } }
+@media screen and (min-width: 960px) {
+  .icon > svg {
+    width: 40px;
+    height: 40px; } }
+.contact-list,
+.social-media-list {
+  width: 240px;
+  list-style: none;
+  margin: 0 auto;
+  overflow: hidden; }
+  .contact-list li,
+  .social-media-list li {
+    float: left;
+    margin: 0 5px; }
+
 /**
  * Page content
  */
 .page-content {
-  margin-top: 150px;
-  padding: 30px 0;
+  margin-top: 270px;
+  padding: 30px;
   background: url("http://xinyu0.github.io/images/headerbackground.png"); }
 
+@media screen and (min-width: 600px) {
+  .page-content {
+    margin-top: 150px; } }
+@media screen and (min-width: 960px) {
+  .page-content {
+    margin-top: 150px; } }
 .page-heading {
   font-size: 3rem; }
 
@@ -617,7 +660,7 @@ pre {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1; }
-  @media screen and (max-width: 80%) {
+  @media screen and (min-width: 960px) {
     .post-title {
       font-size: 36px; } }
 
@@ -627,17 +670,17 @@ pre {
   font-size: 1rem; }
   .post-content h2 {
     font-size: 32px; }
-    @media screen and (max-width: 80%) {
+    @media screen and (min-width: 960px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 80%) {
+    @media screen and (min-width: 960px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 80%) {
+    @media screen and (min-width: 960px) {
       .post-content h4 {
         font-size: 18px; } }
 
@@ -646,8 +689,14 @@ pre {
   height: 300px;
   background: url(http://xinyu0.github.io/images/home/travel0.jpg) top center no-repeat, #3A3A3A;
   background-size: 600px;
-  margin-top: -120px; }
+  margin-top: 60px; }
 
+@media screen and (min-width: 600px) {
+  .heroimage {
+    margin-top: -60px; } }
+@media screen and (min-width: 960px) {
+  .heroimage {
+    margin-top: -120px; } }
 .logo {
   width: 250px;
   float: left;
@@ -662,7 +711,7 @@ pre {
   padding: 2em;
   clear: both;
   float: left;
-  width: 35%;
+  width: 50%;
   background: url(http://xinyu0.github.io/images/home/power_tower.png) top center no-repeat;
   background-size: cover;
   margin-right: -3%;
@@ -672,7 +721,7 @@ pre {
   font-size: 2em;
   padding: 2em;
   float: right;
-  width: 35%;
+  width: 50%;
   background: url(http://xinyu0.github.io/images/home/railroad.png) top center no-repeat;
   background-size: cover;
   margin-left: -3%;
@@ -695,25 +744,6 @@ pre {
   box-sizing: border-box;
   margin-bottom: 1em; }
 
-.projectpic {
-  transform: rotate(10deg);
-  border: 5px #3A3A3A solid;
-  display: block;
-  width: 400px;
-  position: relative;
-  left: -27px;
-  height: 400px; }
-  .projectpic::before {
-    content: "hellooooo";
-    z-index: 999;
-    width: 100px;
-    height: 500px;
-    position: absolute;
-    top: -46px;
-    left: -50px;
-    background: #eeeeee;
-    transform: rotate(-10deg); }
-
 .post-list {
   margin-left: 0;
   list-style: none; }
@@ -733,17 +763,16 @@ pre {
     margin-bottom: 30px;
     border: 5px #3A3A3A solid;
     float: left;
-    width: 415px;
+    width: 80%;
     margin-top: 0px;
     height: 415px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 1rem 10%;
     clear: right; }
     .project-list > li div {
       display: none;
       padding: 1rem;
       background: white;
-      margin-top: 25%; }
+      margin-top: 15%; }
       .project-list > li div h2 {
         font-size: 2rem; }
     .project-list > li:hover img {
@@ -751,19 +780,32 @@ pre {
     .project-list > li:hover div {
       display: block; }
 
+@media screen and (min-width: 600px) {
+  .project-list > li {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%; } }
+@media screen and (min-width: 960px) {
+  .project-list > li {
+    width: 375px;
+    margin-left: 10px;
+    margin-right: 10px; } }
 .portfolio_quick {
   background: url(http://xinyu0.github.io/images/home/pattern.png);
   background-size: cover; }
+  .portfolio_quick img {
+    max-height: 415px; }
 
 .site-nav {
   float: right;
   background: #3A3A3A;
-  overflow: hidden; }
+  overflow: hidden;
+  width: 106px; }
   .site-nav .page-link {
     color: #eeeeee;
     line-height: 1.6;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 500;
@@ -779,6 +821,12 @@ pre {
       background: white;
       background: rgba(255, 255, 255, 0.9); }
 
+@media screen and (min-width: 600px) {
+  .site-nav {
+    width: 212px; } }
+@media screen and (min-width: 960px) {
+  .site-nav {
+    width: 424px; } }
 .aboutimg {
   display: block;
   float: right;
@@ -786,11 +834,68 @@ pre {
   border-radius: 50%;
   margin: 60px; }
 
-.aboutcontent {
-  padding-right: 240px; }
-
 .rss-subscribe {
   clear: both; }
+
+.projectpic {
+  display: block;
+  width: 80%;
+  position: relative;
+  min-height: 200px;
+  float: right;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 10%; }
+  .projectpic img {
+    width: 100%; }
+
+@media screen and (min-width: 600px) {
+  .projectpic {
+    width: 60%;
+    margin-right: 20%; } }
+@media screen and (min-width: 960px) {
+  .projectpic {
+    width: 45%;
+    margin-right: 10%; } }
+.project-content {
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(http://xinyu0.github.io/images/home/pattern.png);
+  background-size: 500px; }
+
+.project-header {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 80%;
+  max-height: 400px;
+  text-align: left;
+  float: left;
+  background: linear-gradient(rgba(238, 238, 238, 0.6), rgba(238, 238, 238, 0.6));
+  margin-left: 10%;
+  word-break: break-all; }
+  .project-header h1 {
+    font-size: 3rem; }
+  .project-header .post-meta {
+    font-size: 1.2rem; }
+  .project-header h3 {
+    font-family: "mplus-1m";
+    font-style: oblique;
+    opacity: .8; }
+  .project-header h4 {
+    font-size: 1.5rem; }
+
+@media screen and (min-width: 600px) {
+  .project-header {
+    width: 60%;
+    margin-left: 20%; } }
+@media screen and (min-width: 960px) {
+  .project-header {
+    width: 30%;
+    margin-left: 10%; } }
+.article-content {
+  font-size: 1rem;
+  clear: both;
+  padding: 1rem 10%;
+  font-family: "mplus-1m";
+  background: #eeeeee; }
 
 /**
  * Syntax highlighting styles

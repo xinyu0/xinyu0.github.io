@@ -1,10 +1,25 @@
 
+
 .heroimage {
     width: 100%;
     height: 300px;
     background: url(http://xinyu0.github.io/images/home/travel0.jpg) top center no-repeat,  #3A3A3A ;
     background-size: 600px;
+
+    margin-top: 2*$spacing-unit;
+}
+
+@include media-query($on-palm) {
+.heroimage {
+    margin-top: -2*$spacing-unit;
+}
+}
+
+@include media-query($on-laptop) {
+    .heroimage {
+
     margin-top: -4*$spacing-unit;
+}
 }
 
 .logo {
@@ -23,7 +38,7 @@
     padding:2em;
     clear: both;
     float: left;
-    width:35%;
+    width:50%;
     background: url(http://xinyu0.github.io/images/home/power_tower.png)top center no-repeat;
     background-size: cover;
     margin-right: -3%;
@@ -36,7 +51,7 @@
     padding:2em;
     // clear:both;
     float: right;
-    width:35%;
+    width:50%;
     background: url(http://xinyu0.github.io/images/home/railroad.png)top center no-repeat;
     background-size: cover;
     margin-left: -3%;
@@ -66,27 +81,7 @@
     margin-bottom: 1em;
 }
 
-.projectpic {
-    transform:rotate(10deg);
-    border:5px $brand-color solid;
-    display: block;
-    width:400px;
-    position:relative;
-    left:-27px;
-    height: 400px;
 
-    &::before {
-        content: "hellooooo";
-        z-index: 999;
-        width:100px;
-        height:500px;
-        position:absolute;
-        top:-46px;
-        left:-50px;
-        background: $background-color;
-        transform:rotate(-10deg);
-    }
-}
 
 .post-list {
     margin-left: 0;
@@ -115,17 +110,17 @@
         margin-bottom: $spacing-unit;
         border:5px $brand-color solid;
         float:left;
-        width:415px;
+        width:80%;
         margin-top: 0px;
         height:415px;
-        margin-left:10px;
-        margin-right:10px;
+        margin: 1rem 10%;
         clear: right;
+
         div {
             display: none;
             padding: 1rem;
             background: white;
-            margin-top: 25%;
+            margin-top: 15%;
             // margin-top: -50%;
             h2 {
                 font-size: 2rem;
@@ -160,9 +155,34 @@
 }
 
 
+@include media-query($on-palm) {
+    .project-list {
+    > li {
+        width: 60%;
+        margin-left:20%;
+        margin-right:20%;
+
+}
+}
+}
+
+@include media-query($on-laptop) {
+    .project-list {
+    > li {
+        width:375px;
+        margin-left:10px;
+        margin-right:10px;
+
+}
+}
+}
 .portfolio_quick {
     background: url(http://xinyu0.github.io/images/home/pattern.png);
     background-size: cover;
+
+    img {
+        max-height: 415px;
+    }
     
     // h2 {
     //     font-size: 3rem;
@@ -181,6 +201,7 @@
     float: right;
    background: $brand-color;
    overflow: hidden;
+   width:106px;
 
     // line-height: 56px;
 
@@ -189,7 +210,8 @@
         line-height: $base-line-height;
         text-decoration: none;
         // border: 2px dotted $text-color;
-        text-align: center;
+        
+        text-align: right;
         margin-top: 10px;
         margin-bottom: 10px;
         font-weight: 500;
@@ -231,6 +253,20 @@
     }
 }
 
+@include media-query($on-palm) {
+    .site-nav {
+    
+   width:106*2px;
+    }
+}
+
+@include media-query($on-laptop) {
+    .site-nav {
+    
+   width:106*4px;
+    }
+}
+
 .aboutimg {
     display: block;
     float:right;
@@ -239,11 +275,108 @@
     margin:2*$spacing-unit;
 }
 
-.aboutcontent {
-    padding-right: 8*$spacing-unit;
-}
+
 
 .rss-subscribe {
     clear:both;
 }
+
+
+.projectpic {
+    // transform:rotate(10deg);
+    
+    // border:5px $brand-color solid;
+    display: block;
+    width:80%;
+    position:relative;
+    min-height: 200px;
+    float: right;
+    margin-top:1rem;
+    margin-bottom:1rem;
+    margin-right: 10%;
+    img {
+        width:100%;
+    }
+
+}
+
+@include media-query($on-palm) {
+    .projectpic {
+         width:60%;
+         margin-right:20%;
+    }
+}
+
+@include media-query($on-laptop) {
+    .projectpic {
+         width:45%;
+         margin-right:10%;
+    }
+}
+
+.project-content {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(http://xinyu0.github.io/images/home/pattern.png);
+    background-size:500px; 
+}
+
+.project-header {
+  margin-top: 1rem;
+  padding: 1rem;
+  width:80%; 
+  max-height: 400px;
+  text-align: left;
+  float: left;
+  // position: absolute;
+  background: linear-gradient(rgba(238, 238, 238, 0.6), rgba(238, 238, 238, 0.6));
+  // margin-right: 60%;
+
+  // border: 5px $brand-color solid;
+  h1 {
+    font-size: 3rem;
+  }
+
+  margin-left: 10%;
+  word-break: break-all;
+
+  .post-meta {
+    
+    font-size: 1.2rem;
+    // opacity: .5;
+  }
+
+  h3 {
+    font-family: "mplus-1m";
+    font-style: oblique;
+    opacity: .8;
+
+  }
+
+  h4 {
+    font-size:1.5rem;
+  }
+}
+
+@include media-query($on-palm) {
+    .project-header {
+         width:60%;
+         margin-left: 20%;
+    }
+}
+
+@include media-query($on-laptop) {
+    .project-header {
+         width:30%;
+         margin-left: 10%;
+    }
+}
+
+
+.article-content {
+    font-size: 1rem;
+    clear:both;
+    padding: 1rem 10%;
+    font-family: "mplus-1m";
+    background: $background-color;
+}
+
 // * {border:1px red solid;}
