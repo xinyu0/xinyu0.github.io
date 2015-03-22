@@ -6,19 +6,19 @@
     background: url(http://xinyu0.github.io/images/home/travel0.jpg) top center no-repeat,  #3A3A3A ;
     background-size: 600px;
 
-    margin-top: 2*$spacing-unit;
+    margin-top: 8*$spacing-unit;
 }
 
 @include media-query($on-palm) {
 .heroimage {
-    margin-top: -2*$spacing-unit;
+    margin-top: 4*$spacing-unit;
 }
 }
 
 @include media-query($on-laptop) {
     .heroimage {
 
-    margin-top: -4*$spacing-unit;
+    margin-top: 2*$spacing-unit;
 }
 }
 
@@ -38,7 +38,7 @@
     padding:2em;
     clear: both;
     float: left;
-    width:50%;
+    width:100%;
     background: url(http://xinyu0.github.io/images/home/power_tower.png)top center no-repeat;
     background-size: cover;
     margin-right: -3%;
@@ -46,30 +46,50 @@
 
 }
 
+// @include media-query($on-palm) {
+// .myblog {
+//     margin-top: 4*$spacing-unit;
+// }
+// }
+
+@include media-query($on-palm) {
+    .myblog {
+
+    width:50%;
+}
+}
+
 .about {
     font-size: 2em;
     padding:2em;
     // clear:both;
     float: right;
-    width:50%;
+    width:100%;
     background: url(http://xinyu0.github.io/images/home/railroad.png)top center no-repeat;
     background-size: cover;
     margin-left: -3%;
     text-align: right;
+    margin-bottom: 1rem;
 
 }
 
-.contact {
-    font-size: 2em;
-    padding:2em;
-    // clear:both;
+@include media-query($on-palm) {
+    .about {
+
+    width:50%;
+}
+}
+// .contact {
+//     font-size: 2em;
+//     padding:2em;
+//     // clear:both;
     
-    width:100%;
-    // background: url(http://xinyu0.github.io/images/home/trainfooter.png)top center no-repeat;
-    background-size: cover;
-    text-align: right;
+//     width:100%;
+//     // background: url(http://xinyu0.github.io/images/home/trainfooter.png)top center no-repeat;
+//     background-size: cover;
+//     text-align: right;
 
-}
+// }
 .mywork {
     clear:both;
     font-size: 2em;
@@ -78,7 +98,7 @@
     background: rgba(58,58,58,0.2);
     border:5px rgba(58,58,58,0.9) solid;
     box-sizing:border-box;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
 
