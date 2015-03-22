@@ -6,8 +6,7 @@
     // border-bottom: 1px solid $grey-color-light;
    
     background: $brand-color;
-    position: fixed;
-    top:0;
+    position: relative;
     width: 100%;
     z-index: 99;
     &::after {
@@ -15,7 +14,13 @@
     }
 }
 
+@include media-query($on-palm) {
+ .site-header {   
+    position: fixed;
+    top:0;
 
+    }
+}
 
 
 //     @include media-query($on-palm) {
@@ -89,6 +94,7 @@
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    max-height: 10px;
 }
 
 .footer-col {

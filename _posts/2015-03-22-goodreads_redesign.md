@@ -17,6 +17,9 @@ description:
 * Competitor Market Study
 
 Amazon
+B&N
+google books
+apple ibooks
 
 	* SWOT analysis
 		* What are their current strengths
