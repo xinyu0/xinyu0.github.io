@@ -9,7 +9,15 @@ thumbnails: /images/thumbnails/test_4.jpeg
 images: projects/suitcase.png
 type: redesign
 description: 
+published: false
 ---
+
+define the problem:
+
+redesign the "timeline" page, personal profile page, and the book page
+
+
+
 * Research	
 	* Interviews (user, self, client)
 	* Word-listing
@@ -20,6 +28,11 @@ Amazon
 B&N
 google books
 apple ibooks
+
+similar sites:
+imdb
+rottentomatoes
+
 
 	* SWOT analysis
 		* What are their current strengths
