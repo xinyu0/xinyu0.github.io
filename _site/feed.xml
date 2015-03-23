@@ -6,9 +6,101 @@
 </description>
     <link>http://xinyu0.github.io/</link>
     <atom:link href="http://xinyu0.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Mar 2015 19:29:48 -0500</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2015 19:29:48 -0500</lastBuildDate>
+    <pubDate>Sun, 22 Mar 2015 23:58:28 -0500</pubDate>
+    <lastBuildDate>Sun, 22 Mar 2015 23:58:28 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>GoodReads Redesign</title>
+        <description>&lt;p&gt;task: give GoodReads a more modern cleaner look, improve the overall user experience, create comps for 3 pages: timeline, personal profile, and the book&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Research (discovery: define the problem):&lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;what (is GoodReads)? 
+Goodreads is the world’s largest site for readers and book recommendations. Its mission is to help people find and share books they love. &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;why (using GoodReads)?&lt;br /&gt;
+To discover books to read, rate a book just finished, keep track of the books you have read, and share books you love with friends  &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;how (to use GoodReads)?&lt;br /&gt;
+It’s like facebook for book readers. You go to their site, sign up, and you will have a personal profile page. Every time you log in, it brings up the timeline page where you can find the updates from your friends, authors you followed, or recommendations on books. You can also search for a book and save it to your customized lists. &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Word-listing&lt;br /&gt;
+community, your personal library, follow the authors you like, sharing, discover what’s trending, rating a book, &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Competitor Market Study&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Amazon, B&amp;amp;N, Apple iBooks, Google books, kobo&lt;/p&gt;
+
+&lt;p&gt;some side note : The last time I visited GoodReads was about 6 months ago. As an avid reader, I almost don’t use it at all. The only reason I went there is to save some great books I read, and maybe give a high rating so that it can be discovered by other users. I never got any recommendations because none of my friends are there, and if I want to find a book to read, I usually go to Amazon. &lt;/p&gt;
+
+&lt;p&gt;Similar sites that incorporated the community aspects:
+IMDB, rotten tomatoes  &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;SWOT analysis
+      * What are their current strengths
+      a huge user base: 30 Million MEMBERS
+      a huge database: 900 Million BOOKS ADDED &amp;amp; 34 Million REVIEWS&lt;br /&gt;
+      the world’s largest site for readers&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;  Good content, fully functional, fully integrated with Amazon, 
+
+
+  * what are their current weaknesses
+
+  too much information on one page. very poor visual hierarchy, 
+  on the timeline page, both user names and book names has the same font size in the same color, overall, the site gives an old bookstore feel  
+
+  * what are their future opportunities
+
+  feature more exclusive news about the authors, upcoming events...
+  incorporate rwd into the main site  
+  Offer a better way for authors and readers to connect  
+
+  * what are their future threats?
+
+  too hard to use so users abandon the app completely (like I do)
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Design  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;the goal is to give goodreads a fresher cleaner look but still maintain the warm, friendly feel &lt;/p&gt;
+
+&lt;p&gt;I started by looking for the stores that communicates these feelings: 
+*&lt;a href=&quot;http://www.muji.us/store/?area=header&quot;&gt;muji&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Style Tiles or &lt;a href=&quot;http://danielmall.com/articles/rif-element-collages/&quot;&gt;Element Collages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Comps (3-breakpoints)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2015 00:00:00 -0500</pubDate>
+        <link>http://xinyu0.github.io/project/2015/03/22/goodreads_redesign.html</link>
+        <guid isPermaLink="true">http://xinyu0.github.io/project/2015/03/22/goodreads_redesign.html</guid>
+        
+        <category>iron_yard</category>
+        
+        
+        <category>project</category>
+        
+      </item>
     
       <item>
         <title>tarka tarka tarka </title>
@@ -211,39 +303,6 @@ I always wonder how designers became that way; how do they see opportunities aro
         <category>iron_yard,</category>
         
         <category>typeface</category>
-        
-        
-        <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Responsive web design sketch 2 (in progress)</title>
-        <description>&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_18/img_20150218_225834.jpg&quot; alt=&quot;P Terrys&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_18/img_20150218_225841.jpg&quot; alt=&quot;Salt Lick BBQ&quot; /&gt; &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_18/img_20150218_225849.jpg&quot; alt=&quot;Tarka Indian Kitchen&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_18/img_20150218_225855.jpg&quot; alt=&quot;Fair Bean Coffee&quot; /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;img src=&quot;http://xinyu0.github.io/images/2015_02_18/img_20150218_225902.jpg&quot; alt=&quot;Austin Beer Garden &amp;amp; Brewery&quot; /&gt;  &lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 18 Feb 2015 14:00:00 -0600</pubDate>
-        <link>http://xinyu0.github.io/blog/2015/02/18/rwdsketching2.html</link>
-        <guid isPermaLink="true">http://xinyu0.github.io/blog/2015/02/18/rwdsketching2.html</guid>
-        
-        <category>iron_yard,</category>
-        
-        <category>homework</category>
         
         
         <category>blog</category>
