@@ -9,7 +9,7 @@ thumbnails: /images/thumbnails/test_4.jpeg
 images: projects/suitcase.png
 type: redesign
 description: 
-<!-- published: false -->
+published: false
 ---
 task: give GoodReads a more modern cleaner look, improve the overall user experience, create comps for 3 pages: timeline, personal profile, and the book
 
