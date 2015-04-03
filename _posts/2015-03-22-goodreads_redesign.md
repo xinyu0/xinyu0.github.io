@@ -37,28 +37,28 @@ Similar sites that incorporated the community aspects:
 IMDB, rotten tomatoes  
 
 * SWOT analysis
-		* What are their current strengths
-		a huge user base: 30 Million MEMBERS
-		a huge database: 900 Million BOOKS ADDED & 34 Million REVIEWS  
-		the world’s largest site for readers
+* What are their current strengths
+a huge user base: 30 Million MEMBERS
+a huge database: 900 Million BOOKS ADDED & 34 Million REVIEWS  
+the world’s largest site for readers
 
-		Good content, fully functional, fully integrated with Amazon, 
+Good content, fully functional, fully integrated with Amazon, 
 
 
-		* what are their current weaknesses
+* what are their current weaknesses
 
-		too much information on one page. very poor visual hierarchy, 
-		on the timeline page, both user names and book names has the same font size in the same color, overall, the site gives an old bookstore feel  
+too much information on one page. very poor visual hierarchy, 
+on the timeline page, both user names and book names has the same font size in the same color, overall, the site gives an old bookstore feel  
 
-		* what are their future opportunities
+* what are their future opportunities
 
-		feature more exclusive news about the authors, upcoming events...
-		incorporate rwd into the main site  
-		Offer a better way for authors and readers to connect  
+feature more exclusive news about the authors, upcoming events...
+incorporate rwd into the main site  
+Offer a better way for authors and readers to connect  
 
-		* what are their future threats?
+* what are their future threats?
 
-		too hard to use so users abandon the app completely (like I do)
+too hard to use so users abandon the app completely (like I do)
 	
 2. Design  
 
