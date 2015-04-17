@@ -729,6 +729,9 @@ pre {
     color: #099; }
 
 .frontpage {
-  font-family: "mplus-1m"; }
+  font-family: 'Raleway', sans-serif;
+  line-height: 2; }
+  .frontpage a {
+    font-weight: 700; }
   .frontpage span {
-    font-size: 2rem; }
+    font-size: 1.7rem; }

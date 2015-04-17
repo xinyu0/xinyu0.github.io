@@ -59,8 +59,10 @@ $on-laptop:        960px;
 ;
 
 .frontpage {
-  font-family: "mplus-1m";
+  font-family: 'Raleway', sans-serif;
+  line-height: 2;
+  a {font-weight: 700;}
   span {
-  	font-size: 2rem;
+  	font-size: 1.7rem;
   }
 }
