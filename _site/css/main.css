@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ubuntu Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem; }
+
 /**
  * Reset some basic elements
  */
@@ -486,7 +491,7 @@ section {
   position: fixed;
   z-index: 1;
   margin: 0;
-  top: 50%;
+  top: 55%;
   left: 50px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -504,7 +509,7 @@ section {
   transition: color 0.3s;
   padding-top: 1.3rem;
   display: block;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   width: 4rem;
   height: 4rem;
   border-top-left-radius: 50%;
@@ -518,10 +523,12 @@ section {
   text-align: center;
   margin-bottom: 0.5rem; }
   .Quick-navigation-item:nth-of-type(2) {
-    background: rgba(0, 0, 0, 0.4); }
+    background: rgba(0, 0, 0, 0.5); }
   .Quick-navigation-item:nth-of-type(3) {
-    background: rgba(0, 0, 0, 0.3); }
+    background: rgba(0, 0, 0, 0.4); }
   .Quick-navigation-item:nth-of-type(4) {
+    background: rgba(0, 0, 0, 0.3); }
+  .Quick-navigation-item:nth-of-type(5) {
     background: rgba(0, 0, 0, 0.2); }
 
 .Quick-navigation-item:hover,
@@ -530,23 +537,23 @@ section {
   background: #C4E929; }
 
 #A {
-  background-color: #CDCDC3; }
+  background-color: rgba(0, 164, 235, 0.5); }
   #A h1 {
-    color: #79C7CA; }
+    color: rgba(0, 0, 0, 0.8); }
 
 #B {
-  background-color: rgba(0, 164, 235, 0.8);
+  background-color: rgba(0, 164, 235, 0.6);
   height: 600px; }
 
 #C {
   background-color: rgba(0, 164, 235, 0.7); }
 
 #D {
-  background-color: rgba(0, 164, 235, 0.6);
+  background-color: rgba(0, 164, 235, 0.8);
   height: 200px; }
 
 #E {
-  background-color: rgba(0, 164, 235, 0.5); }
+  background-color: rgba(0, 0, 0, 0.8); }
 
 .Scroll-to-top {
   position: fixed;
@@ -590,18 +597,23 @@ section {
   transform: translateY(-50%); }
 
 .logo1 {
-  width: 80px;
-  height: 60px; }
+  width: 100px;
+  height: 80px; }
 
 .logo0 {
   position: fixed;
   z-index: 1;
   margin: 0;
   top: 5%;
-  left: 60px; }
+  left: 50px; }
   .logo0 p {
+    padding-left: 10px;
     font-family: "Ubuntu Condensed", sans-serif;
-    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 700;
     letter-spacing: 0.1rem;
     font-size: 1rem;
     text-transform: uppercase; }
+
+.outer {
+  border: 10px rgba(0, 0, 0, 0.6) solid; }

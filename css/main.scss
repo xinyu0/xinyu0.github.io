@@ -36,6 +36,13 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $h-font-family;
+	text-transform: uppercase;
+	letter-spacing:0.1rem; 
+}
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
@@ -71,8 +78,8 @@ $on-laptop:        800px;
 
 .logo1 {
   
-  width:80px;
-  height: 60px;
+  width:100px;
+  height: 80px;
   // background: url("{{ site.url }}/images/logo.svg") no-repeat center left, white;
   // background-size: 80px;
   // &:hover {background: linear-gradient(#C4E929, #C4E929);}
@@ -84,12 +91,19 @@ $on-laptop:        800px;
   	z-index: 1;
   	margin: 0;
   	top: 5%;
-  	left: 60px;
+  	left: 50px;
 	p {
+		padding-left: 10px;
 	  font-family: $h-font-family;
-	  font-weight: bold;
+	  color: rgba(0,0,0,0.6);
+	  font-weight: 700;
 	  letter-spacing: 0.1rem;
 	  font-size: 1rem;
 	  text-transform: uppercase;
 	}
 }
+
+.outer {
+    border:10px rgba(0,0,0,0.6) solid;
+}
+
