@@ -5,10 +5,11 @@
 @import "bourbon/bourbon";
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: 'Raleway', Helvetica, Arial, sans-serif;
+$h-font-family: 'Ubuntu Condensed', sans-serif;
+$base-font-size:   1rem;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
@@ -50,3 +51,20 @@ $on-laptop:        800px;
         "smooth"
 
 ;
+
+.logo {
+  position: fixed;
+  z-index: 1;
+  margin: 0;
+  top: 5%;
+  left: 50px;
+  width:100px;
+  height: 100px;
+  background: url("{{ site.url }}/images/logo.png") no-repeat center left, white;
+  background-size: 100px;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+
+}

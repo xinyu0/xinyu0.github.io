@@ -11,9 +11,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
   font-weight: 300;
   color: #111;
   background-color: #fdfdfd;
@@ -42,7 +42,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 0.875rem; }
 
 /**
  * Lists
@@ -167,7 +167,7 @@ pre {
     display: none; }
   .site-nav .page-link {
     color: #111;
-    line-height: 1.5; }
+    line-height: 1.6; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
   @media screen and (max-width: 600px) {
@@ -270,7 +270,7 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #828282; }
 
 .post-link {
@@ -495,15 +495,18 @@ section {
 .Quick-navigation-item {
   color: white;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
-  padding-top: 1.8rem;
+  padding-top: 1.5rem;
   display: block;
-  background: rgba(0, 0, 0, 0.4);
-  width: 5.5rem;
-  height: 5.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  width: 4.5rem;
+  height: 4.5rem;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -512,33 +515,19 @@ section {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0.5rem; }
+  .Quick-navigation-item:nth-of-type(2) {
+    background: rgba(0, 0, 0, 0.4); }
+  .Quick-navigation-item:nth-of-type(3) {
+    background: rgba(0, 0, 0, 0.3); }
+  .Quick-navigation-item:nth-of-type(4) {
+    background: rgba(0, 0, 0, 0.2); }
 
 .Quick-navigation-item:hover,
 .Quick-navigation-item.current {
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.8);
   background: #C4E929; }
-
-.Scroll-progress-indicator {
-  will-change: opacity, transform;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  left: -10px;
-  border-radius: 2px;
-  position: absolute;
-  top: 50%;
-  opacity: 0;
-  padding: 2em;
-  -webkit-transform: translateX(200%) translateY(-50%);
-  -ms-transform: translateX(200%) translateY(-50%);
-  transform: translateX(200%) translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.1); }
-
-.Scroll-progress-indicator.visible {
-  -webkit-transform: translateX(-100%) translateY(-50%);
-  -ms-transform: translateX(-100%) translateY(-50%);
-  transform: translateX(-100%) translateY(-50%);
-  opacity: 1; }
 
 #A {
   background-color: #CDCDC3; }
@@ -546,18 +535,18 @@ section {
     color: #79C7CA; }
 
 #B {
-  background-color: #eb2049;
+  background-color: rgba(0, 164, 235, 0.8);
   height: 600px; }
 
 #C {
-  background-color: #ed395d; }
+  background-color: rgba(0, 164, 235, 0.7); }
 
 #D {
-  background-color: #ef5271;
+  background-color: rgba(0, 164, 235, 0.6);
   height: 200px; }
 
 #E {
-  background-color: #f26a85; }
+  background-color: rgba(0, 164, 235, 0.5); }
 
 .Scroll-to-top {
   position: fixed;
@@ -585,3 +574,17 @@ section {
 
 .Scroll-to-top:hover {
   color: rgba(255, 255, 255, 0.9); }
+
+.logo {
+  position: fixed;
+  z-index: 1;
+  margin: 0;
+  top: 5%;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background: url("http://xinyudesign.com/images/logo.png") no-repeat center left, white;
+  background-size: 100px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }

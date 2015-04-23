@@ -197,17 +197,17 @@
         links: links,
       
         // Customize onScroll behavior
-        onScroll: function () {
-            var percentage = ScrollManager.scrollPercentage();
-            percentage >= 90 ? scrollToTopBtn.classList.add('visible') : scrollToTopBtn.classList.remove('visible');
+        // onScroll: function () {
+        //     var percentage = ScrollManager.scrollPercentage();
+        //     percentage >= 90 ? scrollToTopBtn.classList.add('visible') : scrollToTopBtn.classList.remove('visible');
 
-            if (percentage >= 10) {
-                progressIndicator.innerHTML = percentage + "%";
-                progressIndicator.classList.add('visible');
-            } else {
-                progressIndicator.classList.remove('visible');
-            }
-        },
+        //     if (percentage >= 10) {
+        //         progressIndicator.innerHTML = percentage + "%";
+        //         progressIndicator.classList.add('visible');
+        //     } else {
+        //         progressIndicator.classList.remove('visible');
+        //     }
+        // },
       
 		// Behavior when a step changes
 		// default : highlight links 
