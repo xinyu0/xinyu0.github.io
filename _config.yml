@@ -1,15 +1,14 @@
 # Site settings
-title: xinyu wang
-email: xinyu0design@gmail.com 	
+title: Your awesome title
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  hi, my name is xinyu. I'm a designer in training. I'm also a lover of art, music and tea.
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://xinyu0.github.io" # the base hostname & protocol for your site
-
-twitter_username: xinyu0
-github_username:  xinyu0
-dribbble_username: xinyu0
-
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown

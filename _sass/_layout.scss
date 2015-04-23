@@ -2,71 +2,89 @@
  * Site header
  */
 .site-header {
-    // border-top: 5px solid $grey-color-dark;
-    // border-bottom: 1px solid $grey-color-light;
-   
-    background: $brand-color;
+    border-top: 5px solid $grey-color-dark;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
     position: relative;
-    width: 100%;
-    z-index: 99;
-    &::after {
-        opacity: 0.5;
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
+
+    &,
+    &:visited {
+        color: $grey-color-dark;
     }
 }
 
-@include media-query($on-palm) {
- .site-header {   
-    position: fixed;
-    top:0;
+.site-nav {
+    float: right;
+    line-height: 56px;
 
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        color: $text-color;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
     }
 }
-
-
-//     @include media-query($on-palm) {
-//         position: absolute;
-//         top: 9px;
-//         right: 30px;
-//         // background-color: $background-color;
-//         border: 1px solid $grey-color-light;
-//         border-radius: 5px;
-//         text-align: right;
-
-//         .menu-icon {
-//             display: block;
-//             float: right;
-//             width: 36px;
-//             height: 26px;
-//             line-height: 0;
-//             padding-top: 10px;
-//             text-align: center;
-
-//             > svg {
-//                 width: 18px;
-//                 height: 15px;
-
-//                 path {
-//                     fill: $grey-color-dark;
-//                 }
-//             }
-//         }
-
-//         .trigger {
-//             // clear: both;
-//             display: block;
-//         }
-
-//         &:hover .trigger {
-//             display: block;
-//             padding-bottom: 5px;
-//         }
-
-//         .page-link {
-//             display: block;
-//             padding: 5px 10px;
-//         }
-//     }
-// }
 
 
 
@@ -76,10 +94,6 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    background: url(http://xinyu0.github.io/images/home/footerbackground.png) top center;
-    height: 150px;
-    margin-top: 50px;
-    
 }
 
 .footer-heading {
@@ -87,93 +101,33 @@
     margin-bottom: $spacing-unit / 2;
 }
 
-
+.contact-list,
+.social-media-list {
+    list-style: none;
+    margin-left: 0;
+}
 
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
-    max-height: 10px;
 }
 
 .footer-col {
-    float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+    float: left;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
-    font-size: 1.5em;
 }
 
-.footer-col-2 {
-    width: -webkit-calc(80% - (#{$spacing-unit} / 2));
-    width:         calc(80% - (#{$spacing-unit} / 2));
-    margin: 1rem 10%;
-    margin-top: 200px;
-    height:240px;
-    position: relative;
-    top: -120px;
-    float:right;
-    background: url(http://xinyu0.github.io/images/home/suitcase.png) top center no-repeat;
-    background-size: 100%;
-    span {
-        display:block;
-        color:#474747;
-        padding-top: 15%;
-        font-size: 1.5em;
-        text-align: center;
-    }
-}
-
-.footer-col-3 {
-    color:black;
-    background: white;
-    opacity: 0.8;
-}
-
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: left;
-    }
-    .footer-col-1,
-    .footer-col-2,
-    .footer-col-3 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-   .footer-col-2 {
-    margin-left: 0;
-    margin-right: $spacing-unit;
-    margin-top: 0px;
-
-}
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1 {
-    width: -webkit-calc(10% - (#{$spacing-unit} / 2));
-    width:         calc(10% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
+.footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
-    height:240px;
-    position: relative;
-    top: -120px;
-    // margin-top: -120PX;
-    float:right;
-    background: url(http://xinyu0.github.io/images/home/suitcase.png) top center no-repeat;
-    background-size: 100%;
-    span {
-        display:block;
-        color:#474747;
-        padding-top: 15%;
-        font-size: 1.5em;
-        text-align: center;
-    }
+}
+
+.footer-col-2 {
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
@@ -181,92 +135,48 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-}
+@include media-query($on-laptop) {
+    .footer-col-1,
+    .footer-col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
 
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 25px;
-        height: 25px;
-        vertical-align: middle;
-
-        path {
-            fill: #474747;
-        }
+    .footer-col-3 {
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
 @include media-query($on-palm) {
-    .icon {
-
-    > svg {
-        width: 30px;
-        height: 30px;
-        
+    .footer-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-   
-}
-
-@include media-query($on-laptop) {
-  .icon {
-
-    > svg {
-        width: 40px;
-        height: 40px;
-        
-    }
-}   
-}
 
 
-.contact-list,
-.social-media-list {
-
-    width:240px;
-    list-style: none;
-    margin: 0 auto;
-    overflow: hidden;
-    // padding-top: 30%;
-    li {float: left;
-
-        margin: 0 5px;}
-    
-}
 
 /**
  * Page content
  */
 .page-content {
-    margin-top: 9*$spacing-unit;
-    padding: $spacing-unit;
-
-    background: url("http://xinyu0.github.io/images/headerbackground.png");
-}
-
-@include media-query($on-palm) {
-    .page-content {
-    margin-top: 5*$spacing-unit;
-
-}
-}
-
-@include media-query($on-laptop) {
-    .page-content {
-    margin-top: 5*$spacing-unit;
-   
-}
+    padding: $spacing-unit 0;
 }
 
 .page-heading {
-    font-size: 3rem;
+    font-size: 20px;
 }
 
+.post-list {
+    margin-left: 0;
+    list-style: none;
 
+    > li {
+        margin-bottom: $spacing-unit;
+    }
+}
 
 .post-meta {
     font-size: $small-font-size;
@@ -275,7 +185,7 @@
 
 .post-link {
     display: block;
-    // font-size: 24px;
+    font-size: 24px;
 }
 
 
@@ -299,8 +209,6 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-    font-family: "mplus-1m";
-    font-size: 1rem;
 
     h2 {
         font-size: 32px;
@@ -326,4 +234,3 @@
         }
     }
 }
-
