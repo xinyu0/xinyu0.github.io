@@ -97,16 +97,17 @@
     bottom: 10px;
     left:10px;
     right:10px;
-    padding: $spacing-unit 0;
+    padding: 14px 0;
     background-color: rgba(0,0,0,0.6);
-    &:hover {
-    -webkit-transform: translate(0px, -5px); 
-    -moz-transform: translate(0px, -5px); 
-    -o-transform: translate(0px, -5px); 
-    -ms-transform: translate(0px, -5px); 
-    transform: translate(0px, -5px); 
-    -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; 
-    }
+    z-index: 3;
+    // &:hover {
+    // -webkit-transform: translate(0px, -5px); 
+    // -moz-transform: translate(0px, -5px); 
+    // -o-transform: translate(0px, -5px); 
+    // -ms-transform: translate(0px, -5px); 
+    // transform: translate(0px, -5px); 
+    // -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; 
+    // }
 
 }
 
@@ -120,16 +121,42 @@
 .social-media-list {
     list-style: none;
     margin-left: 0;
-  li {
-    width:2rem;
-    height: 2rem;
+  div {
+    width:3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    float: left;
     @include border-top-radius(50%);
       @include border-right-radius(50%);
       @include border-bottom-radius(50%);
       @include border-left-radius(50%);
-    background: linear-gradient(rgba(0, 139, 146, 0.5), rgba(0, 139, 146, 0.5)), url("{{ site.url }}/images/github13.svg") no-repeat center center;
-  }
+      -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;
+    }}
+.github {
+    background: url("http://xinyudesign.com/images/github13.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)) ;
+    background-size: 2rem;
+    
+    &:hover{ background: url("http://xinyudesign.com/images/github13.svg") no-repeat center center, linear-gradient(#C4E929, #C4E929) ;
+    background-size: 2.3rem;}
+
+
+    }
+  
+ .dribbble {
+    background: url("http://xinyudesign.com/images/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) ;
+    background-size: 1.5rem;
+    &:hover{ background: url("http://xinyudesign.com/images/dribbble6.svg") no-repeat center center, linear-gradient(#C4E929, #C4E929) ;
+    background-size: 1.8rem;}
 }
+  
+.email {
+    background: url("http://xinyudesign.com/images/email.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)) ;
+    background-size: 1.5rem;
+    &:hover{ background: url("http://xinyudesign.com/images/email.svg") no-repeat center center, linear-gradient(#C4E929, #C4E929) ;
+    background-size: 1.8rem;}
+
+}
+
 
 
 
@@ -142,6 +169,7 @@
 
 .footer-col {
     float: left;
+
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
@@ -157,8 +185,8 @@
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+    width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
