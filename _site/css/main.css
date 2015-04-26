@@ -590,7 +590,8 @@ section {
   background: #C4E929; }
 
 #A {
-  background: linear-gradient(rgba(0, 164, 235, 0.5), rgba(0, 164, 235, 0.5)), url("{{ site.url }}/images/sky.jpg"); }
+  background: linear-gradient(rgba(0, 164, 235, 0.5), rgba(0, 164, 235, 0.5)), url("http://xinyudesign.com/images/sky.jpg") no-repeat center center;
+  background-size: cover; }
   #A h1 {
     color: rgba(0, 0, 0, 0.8); }
 
