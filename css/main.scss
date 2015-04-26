@@ -59,27 +59,29 @@ h1,h2,h3,h4,h5,h6 {
 
 ;
 
-.logo {
-  position: fixed;
-  z-index: 1;
-  margin: 0;
-  top: 10%;
-  left: 50px;
-  width:80px;
-  height: 60px;
-  background: url("{{ site.url }}/images/logo.svg") no-repeat center left, white;
-  background-size: 80px;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+// .logo {
+//   position: fixed;
+//   z-index: 1;
+//   margin: 0;
+//   top: 10%;
+//   right: 50px;
+//   width:80px;
+//   height: 60px;
+//   background: url("{{ site.url }}/images/logo.svg") no-repeat center left, white;
+//   background-size: 80px;
+//   -webkit-transform: translateY(-50%);
+//       -ms-transform: translateY(-50%);
+//           transform: translateY(-50%);
 
 
-}
+// }
 
 .logo1 {
   
-  width:100px;
+  width:80px;
   height: 80px;
+  float: right;
+  
   // background: url("{{ site.url }}/images/logo.svg") no-repeat center left, white;
   // background-size: 80px;
   // &:hover {background: linear-gradient(#C4E929, #C4E929);}
@@ -91,14 +93,16 @@ h1,h2,h3,h4,h5,h6 {
   	z-index: 1;
   	margin: 0;
   	top: 5%;
-  	left: 50px;
+  	right: 50px;
 	p {
-		padding-left: 10px;
+		
+	  clear: both;
 	  font-family: $h-font-family;
 	  color: rgba(0,0,0,0.6);
 	  font-weight: 700;
 	  letter-spacing: 0.1rem;
 	  font-size: 1rem;
+	  text-align: right;
 	  text-transform: uppercase;
 	}
 }

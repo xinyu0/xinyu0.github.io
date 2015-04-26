@@ -122,9 +122,9 @@
     list-style: none;
     margin-left: 0;
   div {
-    width:3rem;
-    height: 3rem;
-    margin-right: 1rem;
+    width:2.5rem;
+    height: 2.5rem;
+    margin-right: 0.3rem;
     float: left;
     @include border-top-radius(50%);
       @include border-right-radius(50%);
@@ -134,26 +134,26 @@
     }}
 .github {
     background: url("http://xinyudesign.com/images/github13.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)) ;
-    background-size: 2rem;
+    background-size: 1.5rem;
     
     &:hover{ background: url("http://xinyudesign.com/images/github13.svg") no-repeat center center, linear-gradient(#C4E929, #C4E929) ;
-    background-size: 2.3rem;}
+    background-size: 1.8rem;}
 
 
     }
   
  .dribbble {
     background: url("http://xinyudesign.com/images/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) ;
-    background-size: 1.5rem;
+    background-size: 1rem;
     &:hover{ background: url("http://xinyudesign.com/images/dribbble6.svg") no-repeat center center, linear-gradient(#C4E929, #C4E929) ;
-    background-size: 1.8rem;}
+    background-size: 1.3rem;}
 }
   
 .email {
     background: url("http://xinyudesign.com/images/email.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)) ;
-    background-size: 1.5rem;
+    background-size: 1rem;
     &:hover{ background: url("http://xinyudesign.com/images/email.svg") no-repeat center center, linear-gradient(#C4E929, #C4E929) ;
-    background-size: 1.8rem;}
+    background-size: 1.3rem;}
 
 }
 
