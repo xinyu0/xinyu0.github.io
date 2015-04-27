@@ -31,18 +31,26 @@ section {
   color: rgba(0,0,0,0.5);
   font-size: 2rem;
   min-height: 100%;
-  height: 100vh;
+//   height: 100vh;
 }
 
 .Quick-navigation {
   position: fixed;
   z-index: 1;
   margin: 0;
-  top: 20%;
+  bottom: 6rem;
   left: 50px;
   // -webkit-transform: translateY(-50%);
   //     -ms-transform: translateY(-50%);
   //         transform: translateY(-50%);
+
+  @include media-query($on-palm) {
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    top: 20%;
+    left: 50px;
+    }
 }
 .Quick-navigation-item {
   color: white;
@@ -50,15 +58,15 @@ section {
   font-family: $h-font-family;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   -webkit-transition: color 0.3s;
           transition: color 0.3s;
-  padding-top: 1.4rem;
-  display: block;
+  padding-top: 1.2rem;
+  display: inline-block;
   background: rgba(0,0,0,0.6);
-  width:4rem;
-  height:4rem;
+  width:3.3rem;
+  height:3.3rem;
   @include border-top-radius(50%);
   @include border-right-radius(50%);
   @include border-bottom-radius(50%);
@@ -77,7 +85,19 @@ section {
   &:nth-of-type(5) {
     background: rgba(0,0,0,0.2);
   }
+
+  @include media-query($on-palm) {
+    width:4rem;
+    height:4rem;
+    display: block;
+    font-size: 0.8rem;
+    padding-top: 1.4rem;
+    }
 }
+
+
+
+
 .Quick-navigation-item:hover,
 .Quick-navigation-item.current {
   color: rgba(0,0,0,0.8);
@@ -104,6 +124,11 @@ section {
 //           transform: translateX(-100%) translateY(-50%);
 //   opacity: 1;
 // }
+#A, #B, #C, #D, #E {
+ 
+}
+
+
 #A {
   background: linear-gradient(rgba(0,164,235,0.5), rgba(0,164,235,0.5)), url("http://xinyudesign.com/images/sky.jpg") no-repeat center center;
   background-size:cover;
