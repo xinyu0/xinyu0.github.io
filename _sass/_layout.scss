@@ -6,8 +6,14 @@
     width:100%;
     background-color: rgba(0,0,0,0.6);
     
+    @include media-query($on-palm) {
+    position: fixed;
+    background-color: transparent;
+    } 
     a {
         color:white;
+      text-align: right;
+    
     }
 }
 
@@ -91,35 +97,23 @@
 .footer-col {
     float: left;
     width:100%;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 5px;
     // padding-left: $spacing-unit / 2;
+    p { 
+    padding: 0.4rem 0;
+    font-size: 1.1rem;
+    line-height: 1;
+    color: rgba(255,255,255,0.6);}
 }
-
-
 
 
 @include media-query($on-palm) {
     .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-1,
-    .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
     }
 }
 
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-}
 
 
 
@@ -130,6 +124,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    z-index: 2;
 }
 
 .page-heading {
@@ -176,6 +171,7 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    z-index: 2;
 
     h2 {
         font-size: 32px;

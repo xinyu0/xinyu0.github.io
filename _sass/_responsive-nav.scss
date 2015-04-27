@@ -1,6 +1,12 @@
 /*! responsive-nav.js 1.0.39 by @viljamis */
 
+.nav-collapse {
+  display: block;
 
+}
+
+@include media-query($on-palm) {
+  .nav-collapse {display: none;}}
 
 .nav-collapse ul {
   margin-bottom: 4rem;
@@ -8,6 +14,13 @@
   width: 100%;
   display: block;
   list-style: none;
+
+  @include media-query($on-palm) {
+    margin-left: 80%;
+    margin-top: 20%;
+    display: none;
+
+    }
 }
 
 .nav-collapse li {
@@ -18,7 +31,6 @@
   &:nth-of-type(1) {
     padding-top: 2rem;
   }
-  
 
 }
 
