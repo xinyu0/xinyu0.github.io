@@ -2,7 +2,7 @@
 
 .nav-collapse {
   display: block;
-
+  z-index: 1;
 }
 
 @include media-query($on-palm) {

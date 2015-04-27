@@ -1,6 +1,5 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu Condensed", sans-serif;
-  text-transform: uppercase;
   letter-spacing: 0.1rem; }
 
 /**
@@ -192,6 +191,19 @@ pre {
   .site-header a {
     color: white;
     text-align: right; }
+  .site-header::before {
+    width: 10px;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    content: ""; }
+  .site-header::after {
+    width: 100%;
+    height: 10px;
+    position: fixed;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    content: ""; }
 
 /**
  * Site footer
@@ -199,7 +211,7 @@ pre {
 .site-footer {
   position: fixed;
   height: 5rem;
-  bottom: 10px;
+  bottom: 0px;
   left: 10px;
   right: 10px;
   padding: 14px 0;
@@ -208,6 +220,15 @@ pre {
   @media screen and (min-width: 600px) {
     .site-footer {
       height: 4rem; } }
+  .site-footer::after {
+    width: 10px;
+    height: 100%;
+    position: fixed;
+    top: 10px;
+    bottom: 20px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    content: ""; }
 
 .footer-heading {
   font-size: 18px;
@@ -271,12 +292,15 @@ pre {
   .footer-col {
     width: -webkit-calc(50% - (50px / 2));
     width: calc(50% - (50px / 2)); } }
+.post {
+  z-index: 2; }
+
 /**
  * Page content
  */
 .page-content {
   padding: 50px 0;
-  z-index: 2; }
+  z-index: 99; }
 
 .page-heading {
   font-size: 20px; }
@@ -608,7 +632,8 @@ section {
 
 /*! responsive-nav.js 1.0.39 by @viljamis */
 .nav-collapse {
-  display: block; }
+  display: block;
+  z-index: 1; }
 
 @media screen and (min-width: 600px) {
   .nav-collapse {
@@ -669,7 +694,7 @@ section {
 
 .logo0 {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   margin: 0;
   top: 5%;
   right: 50px; }
@@ -683,17 +708,9 @@ section {
     text-align: right;
     text-transform: uppercase; }
 
-.outer {
-  border: 10px rgba(0, 0, 0, 0.6) solid;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; }
-
 #scrollUp {
   position: fixed;
-  bottom: 10px;
+  bottom: 0px;
   right: 10px;
   width: 4rem;
   height: 4rem;
@@ -740,7 +757,7 @@ section {
   cursor: pointer;
   width: 1.8rem;
   height: 1.8rem;
-  z-index: 1; }
+  z-index: 3; }
   @media screen and (min-width: 600px) {
     #hamburger {
       display: none; } }
