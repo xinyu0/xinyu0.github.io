@@ -798,3 +798,63 @@ section {
   @media screen and (min-width: 600px) {
     .side-nav {
       display: block; } }
+
+.col1, .col2, .col3, .col4, .col5, .col6 {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 1rem; }
+  .col1:last-of-type, .col2:last-of-type, .col3:last-of-type, .col4:last-of-type, .col5:last-of-type, .col6:last-of-type {
+    margin-right: 0; }
+
+@media screen and (min-width: 600px) {
+  .col2 {
+    width: 14.16%;
+    float: left;
+    margin-right: 3%;
+    height: 300px;
+    box-sizing: border-box; }
+
+  .col3 {
+    width: 22.74%;
+    float: left;
+    margin-right: 3%;
+    height: 300px;
+    box-sizing: border-box; }
+
+  .col4 {
+    width: 31.32%;
+    float: left;
+    margin-right: 3%;
+    height: 300px;
+    box-sizing: border-box; }
+
+  .col6 {
+    width: 48.48%;
+    float: left;
+    margin-right: 3%;
+    height: 300px;
+    box-sizing: border-box; }
+
+  .col12 {
+    width: 99.96%;
+    float: left;
+    margin-right: 3%;
+    height: 300px;
+    box-sizing: border-box; }
+
+  .col8 {
+    width: 65.64%;
+    float: left;
+    margin-right: 3%;
+    height: 300px;
+    box-sizing: border-box; } }
+.ed2015 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://xinyudesign.com/images/work/ed2015/iMac.png") no-repeat center center;
+  background-size: 400px; }
+  .ed2015:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://xinyudesign.com/images/work/ed2015/iMac.png") no-repeat center center;
+    background-size: 400px; }

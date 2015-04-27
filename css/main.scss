@@ -149,3 +149,69 @@ h1,h2,h3,h4,h5,h6 {
 	}
 	@include media-query($on-palm) {display: block;}
 }
+
+
+// grids
+// grids
+$col: 5.58%;
+$gut: 3%;
+
+@mixin grid($cnum) {
+  width: ($col*$cnum)+($gut*(($cnum)-1));
+  float: left;
+  margin-right: $gut;
+  height: 300px;
+  box-sizing:border-box;
+}
+
+
+.col1, .col2, .col3, .col4, .col5, .col6 { 
+    width:100%;
+    height: 50px;
+    background: transparent;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 20px;
+    // border: 10px white solid;
+    margin-bottom: 1rem;
+    &:last-of-type {
+    margin-right: 0;
+}
+}
+
+@media screen and (min-width: $on-palm) {
+
+.col2 {
+  @include grid(2);
+}
+
+.col3 {
+  @include grid(3);
+}
+
+.col4 {
+  @include grid(4);
+}
+
+.col6 {
+  @include grid(6);
+}
+
+.col12  {
+  @include grid(12);
+}
+.col8  {
+  @include grid(8);
+}
+}
+
+// 
+.ed2015 {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("http://xinyudesign.com/images/work/ed2015/iMac.png") no-repeat center center;
+  background-size:400px;
+  &:hover {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("http://xinyudesign.com/images/work/ed2015/iMac.png") no-repeat center center;
+  background-size:400px;
+
+  }
+}
