@@ -20,7 +20,7 @@ body {
   line-height: 1.6;
   font-weight: 300;
   color: #111;
-  background-color: rgba(0, 164, 235, 0.5);
+  background-color: transparent;
   -webkit-text-size-adjust: 100%; }
 
 /**
