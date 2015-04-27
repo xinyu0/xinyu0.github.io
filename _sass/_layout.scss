@@ -153,8 +153,10 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 10rem 0;
     z-index: 99;
+    @include media-query($on-palm) {
+    padding: $spacing-unit 0;}
 }
 
 .page-heading {

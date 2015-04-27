@@ -55,7 +55,9 @@ p {
  */
 img {
   max-width: 100%;
-  vertical-align: middle; }
+  display: block;
+  vertical-align: middle;
+  margin: 4rem auto; }
 
 /**
  * Figures
@@ -305,8 +307,11 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 50px 0;
+  padding: 10rem 0;
   z-index: 99; }
+  @media screen and (min-width: 600px) {
+    .page-content {
+      padding: 50px 0; } }
 
 .page-heading {
   font-size: 20px; }
@@ -801,7 +806,7 @@ section {
 
 .col1, .col2, .col3, .col4, .col5, .col6 {
   width: 100%;
-  height: 50px;
+  height: 300px;
   background: transparent;
   margin-bottom: 5px;
   text-align: center;

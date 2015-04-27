@@ -60,7 +60,10 @@ p {
  */
 img {
     max-width: 100%;
+    display: block;
     vertical-align: middle;
+    margin: 4rem auto;
+
 }
 
 
@@ -177,11 +180,13 @@ pre {
     padding-left: $spacing-unit / 2;
     margin-right: auto;
     margin-left: auto;
+
     z-index: 1;
     @extend %clearfix;
     @include media-query($on-palm) {
     width:75%;
     max-width: 800px;
+
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     z-index: 1;
