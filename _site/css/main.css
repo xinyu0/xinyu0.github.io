@@ -38,6 +38,12 @@ h1 {
     h1 {
       font-size: 3.5rem; } }
 
+h2 {
+  font-size: 1.75rem; }
+  @media screen and (min-width: 600px) {
+    h2 {
+      font-size: 3rem; } }
+
 p {
   font-size: 1.1rem; }
   @media screen and (min-width: 600px) {
@@ -584,24 +590,24 @@ section {
   background: #C4E929; }
 
 #A {
-  background: linear-gradient(rgba(0, 164, 235, 0.5), rgba(0, 164, 235, 0.5)), url("http://xinyudesign.com/images/sky.jpg") no-repeat center center;
+  background: linear-gradient(rgba(0, 164, 235, 0.4), rgba(0, 164, 235, 0.5)), url("http://xinyudesign.com/images/sky.jpg") no-repeat center center;
   background-size: cover; }
   #A h1 {
     color: rgba(0, 0, 0, 0.8); }
 
 #B {
-  background-color: rgba(0, 164, 235, 0.6);
+  background-color: rgba(0, 164, 235, 0.5);
   min-height: 600px; }
 
 #C {
-  background-color: rgba(0, 164, 235, 0.7); }
+  background-color: rgba(0, 164, 235, 0.4); }
 
 #D {
-  background-color: rgba(0, 164, 235, 0.8);
+  background-color: rgba(0, 164, 235, 0.5);
   min-height: 200px; }
 
 #E {
-  background-color: rgba(0, 164, 235, 0.9); }
+  background-color: rgba(0, 164, 235, 0.4); }
 
 .Scroll-to-top {
   position: fixed;

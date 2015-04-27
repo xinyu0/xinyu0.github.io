@@ -41,6 +41,12 @@ h1 {
     font-size: 3.5rem;}
 }
 
+h2 {
+    font-size: 1.75rem;
+    @include media-query($on-palm) {
+    font-size: 3rem;}
+}
+
 p {
     font-size: 1.1rem;
     @include media-query($on-palm) {
