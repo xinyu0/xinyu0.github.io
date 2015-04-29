@@ -1,15 +1,8 @@
-
 <header class="site-header">
 <!-- <div class="res-nav"> -->
-<div id="hamburger">
-
-  <span class="bar"></span>
-
-  <span class="bar"></span>
-
-  <span class="bar"></span>
 
 </div>
+
   <nav class="nav-collapse">
     <ul>
           {% for page in site.pages %}
@@ -22,4 +15,16 @@
 
 </header>
 
- 
+  <div class="logo0"><a href="{{ site.baseurl }}/">
+    <p>xinyu wang<br>
+    Web & UI design</p>
+    </a>
+  </div>
+
+<ul class="sidenav">
+          {% for page in site.pages %}
+            {% if page.title %}
+            <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+</ul>

@@ -200,7 +200,7 @@
           transition: 284,                  // Integer: Speed of the transition, in milliseconds
           label: "Menu",                    // String: Label for the navigation toggle
           insert: "before",                 // String: Insert the toggle before or after the navigation
-          customToggle: "hamburger",                 // Selector: Specify the ID of a custom toggle
+          customToggle: "",                 // Selector: Specify the ID of a custom toggle
           closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
           openPos: "relative",              // String: Position of the opened nav, relative or static
           navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
