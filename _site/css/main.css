@@ -276,8 +276,9 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 10rem 0;
-  z-index: 99; }
+  padding: 5rem 0;
+  z-index: 99;
+  clear: both; }
   @media screen and (min-width: 680px) {
     .page-content {
       padding: 50px 0; } }
@@ -522,67 +523,30 @@ pre {
 
   .nav-toggle {
     display: none; } }
-.logo1 {
-  width: 80px;
-  height: 80px;
-  float: right; }
-
 .logo0 {
   position: relative;
-  margin: 0;
   top: 30px;
   left: 50px; }
   .logo0 p {
-    clear: both;
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
     font-family: "Oswald", Helvetica, Arial, sans-serif;
     color: rgba(0, 0, 0, 0.8);
     letter-spacing: 0.15rem;
     font-size: 1.3rem;
     text-align: left;
     text-transform: uppercase; }
-
-#hamburger {
-  position: absolute;
-  top: 30px;
-  left: 50px;
-  cursor: pointer;
-  width: 1.8rem;
-  height: 1.8rem;
-  z-index: 3; }
-  @media screen and (min-width: 680px) {
-    #hamburger {
-      display: none; } }
-
-.bar {
-  display: block;
-  width: 100%;
-  height: 20%;
-  margin-top: 20%;
-  background: white;
-  transition: 0.25s;
-  -webkit-transition: 0.25s;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-
-.animate .bar:nth-child(1) {
-  transform: translateY(40px) rotate(135deg); }
-
-.animate .bar:nth-child(2) {
-  opacity: 0; }
-
-.animate .bar:nth-child(3) {
-  transform: translateY(-40px) rotate(-135deg); }
-
-.side-nav {
-  display: none; }
-  .side-nav li {
-    list-style-type: none;
-    text-align: right; }
-  @media screen and (min-width: 680px) {
-    .side-nav {
-      display: block; } }
+  .logo0 img {
+    width: 65px;
+    height: 65px;
+    margin-top: -40px;
+    display: inline-block;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease; }
+  .logo0:hover img {
+    transform: rotate(720deg);
+    -webkit-transform: rotate(720deg); }
 
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9 {
   width: 100%;
@@ -755,20 +719,13 @@ pre {
   -webkit-transition: top 0.35s ease 0.1s,opacity 0.35s ease 0.1s;
   transition: top 0.35s ease 0.1s,opacity 0.35s ease 0.1s; }
 
-header #navi {
-  margin-top: -9px;
-  right: 0px;
-  top: 50%;
-  position: absolute;
-  z-index: 3; }
-
 header #navi .navi_btn {
   height: 20px;
   width: 25px;
-  display: block !important;
+  display: block;
   cursor: pointer;
   float: right;
-  position: relative;
+  position: absolute;
   z-index: 3; }
 
 header #navi .navi_btn span {
@@ -776,9 +733,7 @@ header #navi .navi_btn span {
   width: 25px;
   position: absolute;
   left: 0px;
-  top: 9px;
   background-color: #000;
-  text-indent: -9999px;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease; }
 
@@ -820,75 +775,6 @@ header #navi .navi_btn:after {
 
   header #navi .close_btn {
     opacity: 0; } }
-@media screen and (min-width: 1001px) {
-  header nav {
-    z-index: 2;
-    padding-bottom: 80px;
-    position: absolute;
-    opacity: 0;
-    top: 50%;
-    float: left;
-    width: 0px;
-    margin-top: -48px; }
-
-  header nav ul {
-    float: left;
-    padding-top: 36px;
-    padding-bottom: 24px; }
-
-  header nav li {
-    font-family: Abel, sans-serif;
-    font-size: 14px;
-    letter-spacing: 0.15em;
-    display: inline; }
-
-  header nav a {
-    display: inline-block;
-    position: relative; }
-
-  header nav a:hover {
-    color: #000; }
-
-  header nav a:before {
-    content: "";
-    background-color: #000;
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    bottom: -10px;
-    opacity: 0;
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease; }
-
-  header nav a:hover:before {
-    content: "";
-    left: 0px;
-    bottom: 0px;
-    opacity: 1; }
-
-  header nav li:after {
-    content: "/";
-    padding-right: 10px;
-    padding-left: 14px; }
-
-  header nav .navititle:after {
-    content: "" !important;
-    padding-right: 20px;
-    padding-left: 24px;
-    height: 3px;
-    width: 14px;
-    background-image: url(../images/arrow02.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 14px 2px;
-    margin-top: 10px;
-    display: inline; }
-
-  header nav li:last-child:after {
-    content: "";
-    padding-right: 0px;
-    padding-left: 0px; } }
 @media screen and (max-width: 1000px) {
   header nav {
     width: 100%;

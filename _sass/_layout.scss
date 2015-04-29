@@ -146,8 +146,9 @@
  * Page content
  */
 .page-content {
-    padding: 10rem 0;
+    padding: 5rem 0;
     z-index: 99;
+    clear: both;
     @include media-query($on-palm) {
     padding: $spacing-unit 0;}
 }
