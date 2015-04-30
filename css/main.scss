@@ -476,6 +476,20 @@ header nav a:hover {
 .tarka {
   width: 100%;
   height: 200px;
-  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/ed2015/tarka_top.jpg") no-repeat bottom center;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/tarka/tarka_top.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
+.csszengarden {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/csszengarden/csszengarden_top.png") no-repeat bottom center;
+  background-size: cover;
+}
+
+.gr {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/gr/gr_top.png") no-repeat bottom center;
   background-size: cover;
 }
