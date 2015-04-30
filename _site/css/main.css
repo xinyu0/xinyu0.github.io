@@ -53,11 +53,11 @@ h2 {
       font-size: 2rem; } }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1rem;
   letter-spacing: 0.15rem; }
   @media screen and (min-width: 680px) {
     h3 {
-      font-size: 1.5rem; } }
+      font-size: 1.1rem; } }
 
 p {
   font-size: 1.1rem; }
@@ -558,7 +558,6 @@ pre {
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9 {
   width: 100%;
   margin-bottom: 3rem;
-  text-align: center;
   min-height: 200px; }
 
 .col4, .col8 {
@@ -571,7 +570,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box; }
 
   .col2 {
@@ -579,7 +577,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box; }
 
   .col3 {
@@ -587,7 +584,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box; }
 
   .col4 {
@@ -595,7 +591,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box; }
 
   .col5 {
@@ -603,7 +598,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box; }
 
   .col6 {
@@ -611,7 +605,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box;
     position: relative; }
     .col6:last-of-type {
@@ -622,7 +615,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box; }
 
   .col8 {
@@ -630,7 +622,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box;
     margin-right: 0; }
 
@@ -639,7 +630,6 @@ pre {
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    text-align: center;
     box-sizing: border-box; } }
 .ed2015 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://xinyudesign.com/images/work/ed2015/iMac.png") no-repeat center center;
@@ -977,3 +967,14 @@ header #navi .navi_btn:after {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat center center;
   background-size: cover;
   background-attachment: fixed; }
+
+.prevprojectslink {
+  float: left; }
+
+.nextprojectslink {
+  float: right; }
+
+.pagenav {
+  float: left;
+  width: 100%;
+  text-align: center; }
