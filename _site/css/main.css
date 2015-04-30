@@ -34,16 +34,30 @@ ul, ol, dl, figure,
   margin-bottom: 25px; }
 
 h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  text-align: center; }
+
+h1 {
   font-size: 2rem; }
   @media screen and (min-width: 680px) {
     h1 {
-      font-size: 3.5rem; } }
+      font-size: 2.5rem; } }
 
 h2 {
-  font-size: 1.75rem; }
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem; }
   @media screen and (min-width: 680px) {
     h2 {
-      font-size: 3rem; } }
+      font-size: 2rem; } }
+
+h3 {
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem; }
+  @media screen and (min-width: 680px) {
+    h3 {
+      font-size: 1.5rem; } }
 
 p {
   font-size: 1.1rem; }
@@ -279,12 +293,8 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 5rem 0;
   z-index: 99;
   clear: both; }
-  @media screen and (min-width: 680px) {
-    .page-content {
-      padding: 50px 0; } }
 
 .page-heading {
   font-size: 20px; }
@@ -308,14 +318,6 @@ pre {
  */
 .post-header {
   margin-bottom: 50px; }
-
-.post-title {
-  font-size: 42px;
-  letter-spacing: -1px;
-  line-height: 1; }
-  @media screen and (min-width: 850px) {
-    .post-title {
-      font-size: 36px; } }
 
 .post-content {
   margin-bottom: 50px;
@@ -557,8 +559,11 @@ pre {
   width: 100%;
   margin-bottom: 3rem;
   text-align: center;
-  color: #eeeeee;
   min-height: 200px; }
+
+.col4, .col8 {
+  border-top: 1px solid black;
+  margin-top: 50px; }
 
 @media screen and (min-width: 680px) {
   .col1 {
@@ -567,8 +572,7 @@ pre {
     margin-right: 4%;
     margin-bottom: 3rem;
     text-align: center;
-    box-sizing: border-box;
-    color: #eeeeee; }
+    box-sizing: border-box; }
 
   .col2 {
     width: 13.2%;
@@ -576,8 +580,7 @@ pre {
     margin-right: 4%;
     margin-bottom: 3rem;
     text-align: center;
-    box-sizing: border-box;
-    color: #eeeeee; }
+    box-sizing: border-box; }
 
   .col3 {
     width: 21.8%;
@@ -585,8 +588,7 @@ pre {
     margin-right: 4%;
     margin-bottom: 3rem;
     text-align: center;
-    box-sizing: border-box;
-    color: #eeeeee; }
+    box-sizing: border-box; }
 
   .col4 {
     width: 30.4%;
@@ -594,8 +596,7 @@ pre {
     margin-right: 4%;
     margin-bottom: 3rem;
     text-align: center;
-    box-sizing: border-box;
-    color: #eeeeee; }
+    box-sizing: border-box; }
 
   .col5 {
     width: 39%;
@@ -603,8 +604,7 @@ pre {
     margin-right: 4%;
     margin-bottom: 3rem;
     text-align: center;
-    box-sizing: border-box;
-    color: #eeeeee; }
+    box-sizing: border-box; }
 
   .col6 {
     width: 47.6%;
@@ -613,7 +613,6 @@ pre {
     margin-bottom: 3rem;
     text-align: center;
     box-sizing: border-box;
-    color: #eeeeee;
     position: relative; }
     .col6:last-of-type {
       margin-right: 0; }
@@ -624,8 +623,7 @@ pre {
     margin-right: 4%;
     margin-bottom: 3rem;
     text-align: center;
-    box-sizing: border-box;
-    color: #eeeeee; }
+    box-sizing: border-box; }
 
   .col8 {
     width: 64.8%;
@@ -634,7 +632,7 @@ pre {
     margin-bottom: 3rem;
     text-align: center;
     box-sizing: border-box;
-    color: #eeeeee; }
+    margin-right: 0; }
 
   .col9 {
     width: 73.4%;
@@ -642,8 +640,7 @@ pre {
     margin-right: 4%;
     margin-bottom: 3rem;
     text-align: center;
-    box-sizing: border-box;
-    color: #eeeeee; } }
+    box-sizing: border-box; } }
 .ed2015 {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://xinyudesign.com/images/work/ed2015/iMac.png") no-repeat center center;
   background-size: 400px; }
@@ -942,26 +939,41 @@ header #navi .navi_btn:after {
     #navi_btn:after {
       display: none; } }
 
-.ed15 {
+.workimg {
   width: 100%;
-  height: 200px;
+  height: 200px; }
+
+.ed15 {
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat bottom center;
   background-size: cover; }
 
 .tarka {
-  width: 100%;
-  height: 200px;
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("http://xinyudesign.com/images/work/tarka/tarka_top.jpg") no-repeat bottom center;
   background-size: cover; }
 
 .csszengarden {
-  width: 100%;
-  height: 200px;
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("http://xinyudesign.com/images/work/csszengarden/csszengarden_top.png") no-repeat bottom center;
   background-size: cover; }
 
 .gr {
-  width: 100%;
-  height: 200px;
   background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("http://xinyudesign.com/images/work/gr/gr_top.png") no-repeat bottom center;
   background-size: cover; }
+
+.workimgmain {
+  width: 100%;
+  height: 400px; }
+  .workimgmain h2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-flex;
+    margin: 30px 0;
+    padding: 10px 20px; }
+  .workimgmain h3 {
+    font-family: "Abel", Helvetica, Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: table;
+    padding: 10px 20px; }
+
+.ed15_2 {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; }

@@ -107,7 +107,6 @@ $gut: 4%;
   margin-bottom: 3rem;
   text-align: center;
   box-sizing:border-box;
-  color: #eeeeee;
 }
 
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9 { 
@@ -117,8 +116,13 @@ $gut: 4%;
     margin-bottom: 3rem;
     text-align: center;
     // padding: 20px;
-    color: #eeeeee;
     min-height: 200px;
+}
+
+.col4, .col8 {
+  border-top: 1px solid black;
+  // padding-top: 30px;
+  margin-top: 50px;
 }
 
 @media screen and (min-width: $on-palm) {
@@ -156,6 +160,7 @@ $gut: 4%;
 
 .col8 {
   @include grid(8);
+  margin-right: 0;
 }
 
 .col9 {
@@ -466,30 +471,53 @@ header nav a:hover {
 //   border: 1px solid red;
 // }
 
-.ed15 {
+.workimg {
   width: 100%;
   height: 200px;
+}
+.ed15 {
   background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat bottom center;
   background-size: cover;
 }
 
 .tarka {
-  width: 100%;
-  height: 200px;
+ 
   background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/tarka/tarka_top.jpg") no-repeat bottom center;
   background-size: cover;
 }
 
 .csszengarden {
-  width: 100%;
-  height: 200px;
+
   background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/csszengarden/csszengarden_top.png") no-repeat bottom center;
   background-size: cover;
 }
 
 .gr {
-  width: 100%;
-  height: 200px;
+ 
   background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/gr/gr_top.png") no-repeat bottom center;
   background-size: cover;
+}
+
+.workimgmain {
+  width: 100%;
+  height: 400px;
+  h2 {
+    background-color: rgba(255,255,255,0.5);
+    display: inline-flex;
+    margin: 30px 0;
+    padding: 10px 20px;
+  }
+   h3 {
+    font-family: $base-font-family;
+    background-color: rgba(255,255,255,0.5);
+    display: table;
+    padding: 10px 20px;
+
+  }
+}
+
+.ed15_2 {
+  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
