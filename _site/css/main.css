@@ -978,3 +978,35 @@ header #navi .navi_btn:after {
   float: left;
   width: 100%;
   text-align: center; }
+
+.pagenav span a {
+  display: inline-block;
+  letter-spacing: 0.1em;
+  position: relative;
+  border-bottom: black 1px solid; }
+
+.pagenav span a:before {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0px;
+  display: block;
+  border-bottom: black 1px solid;
+  content: "";
+  z-index: 2;
+  webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translate(0%, 0px);
+  -moz-transform: translate(0%, 0px);
+  -o-transform: translate(0%, 0px);
+  -ms-transform: translate(0%, 0px);
+  transform: translate(0%, 0px); }
+
+.pagenav span a:hover:before {
+  -webkit-transform: translate(50%, 0%);
+  -moz-transform: translate(50%, 0%);
+  -o-transform: translate(50%, 0%);
+  -ms-transform: translate(50%, 0%);
+  transform: translate(50%, 0%); }
