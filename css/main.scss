@@ -195,8 +195,8 @@ $gut: 4%;
   text-align:center;position:absolute;-webkit-transition:opacity 0.35s;transition:opacity 0.35s}
 .js .media.media_creative .media_creative--mask{opacity:0}
 .media.media_creative .media_creative--link:hover .media_creative--mask{opacity:1}
-.media.media_creative .media_creative--link:hover .media_creative--heading{bottom:50%;opacity:1}
-.media.media_creative .media_creative--link:hover .media_creative--border{width:85%}.media.media_creative .media_creative--link:hover .media_creative--text{top:50%;opacity:1}
+.media.media_creative .media_creative--link:hover .media_creative--heading{bottom:100px;opacity:1}
+.media.media_creative .media_creative--link:hover .media_creative--border{width:85%;}.media.media_creative .media_creative--link:hover .media_creative--text{top:120px;opacity:1}
 .media.media_creative .media_creative--heading
 {width:100%;
   font-size:1.3rem;
@@ -204,7 +204,7 @@ $gut: 4%;
   // text-shadow:0.5px 0.866px 0px rgba(8,1,3,0.392);
   text-align:center;opacity:0;position:absolute;
   bottom:170px;-webkit-transition:bottom 0.35s ease 0.1s,opacity 0.35s ease 0.1s;transition:bottom 0.35s ease 0.1s,opacity 0.35s ease 0.1s;}
-.media.media_creative .media_creative--border{display:inline-block;*display:inline;*zoom:1;width:0px;border-top:1px solid #000;margin-top:30%;-webkit-transition:width 0.35s ease 0.1s;transition:width 0.35s ease 0.1s}
+.media.media_creative .media_creative--border{display:inline-block;*display:inline;*zoom:1;width:0px;border-top:1px solid #000;margin-top:100px;-webkit-transition:width 0.35s ease 0.1s;transition:width 0.35s ease 0.1s}
 .media.media_creative .media_creative--text
   {width:100%;
   text-align:center;
@@ -462,16 +462,6 @@ header nav a:hover {
   }
 }
 
-#dummy {
-    padding-top: 75%; /* 4:3 aspect ratio */
-}
-#element {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
 // * {
 //   border: 1px solid red;
 // }
@@ -479,6 +469,13 @@ header nav a:hover {
 .ed15 {
   width: 100%;
   height: 200px;
-  background: url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat center center;
-  background-size: 200px;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
+.tarka {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/ed2015/tarka_top.jpg") no-repeat bottom center;
+  background-size: cover;
 }

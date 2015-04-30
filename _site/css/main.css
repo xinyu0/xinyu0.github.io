@@ -681,14 +681,14 @@ pre {
   opacity: 1; }
 
 .media.media_creative .media_creative--link:hover .media_creative--heading {
-  bottom: 50%;
+  bottom: 100px;
   opacity: 1; }
 
 .media.media_creative .media_creative--link:hover .media_creative--border {
   width: 85%; }
 
 .media.media_creative .media_creative--link:hover .media_creative--text {
-  top: 50%;
+  top: 120px;
   opacity: 1; }
 
 .media.media_creative .media_creative--heading {
@@ -708,7 +708,7 @@ pre {
   *zoom: 1;
   width: 0px;
   border-top: 1px solid #000;
-  margin-top: 30%;
+  margin-top: 100px;
   -webkit-transition: width 0.35s ease 0.1s;
   transition: width 0.35s ease 0.1s; }
 
@@ -942,19 +942,14 @@ header #navi .navi_btn:after {
     #navi_btn:after {
       display: none; } }
 
-#dummy {
-  padding-top: 75%;
-  /* 4:3 aspect ratio */ }
-
-#element {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; }
-
 .ed15 {
   width: 100%;
   height: 200px;
-  background: url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat center center;
-  background-size: 200px; }
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("http://xinyudesign.com/images/work/ed2015/ed2015_top.jpg") no-repeat bottom center;
+  background-size: cover; }
+
+.tarka {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("http://xinyudesign.com/images/work/ed2015/tarka_top.jpg") no-repeat bottom center;
+  background-size: cover; }
