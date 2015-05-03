@@ -538,7 +538,11 @@ header nav a:hover {
   width: 100%;
   text-align: center;}
 
-.pagenav span a { display: inline-block; letter-spacing: 0.1em; position:relative; border-bottom: black 1px solid; 
+.pagenav span a { 
+  font-size: 1rem;
+  font-family: $h-font-family;
+
+  display: inline-block; letter-spacing: 0.1em; position:relative; border-bottom: black 1px solid; 
 }
 
 .pagenav span a:before { position: absolute; right: 0; bottom: -1px; left: 0px; display: block; 
@@ -547,7 +551,9 @@ header nav a:hover {
 .pagenav span a:hover:before { -webkit-transform: translate(50%, 0%); -moz-transform: translate(50%, 0%); -o-transform: translate(50%, 0%); -ms-transform: translate(50%, 0%); transform: translate(50%, 0%); }
 
 
-.textlink a { display: inline-block; letter-spacing: 0.1em; position:relative; border-bottom: black 1px solid; 
+.textlink a { 
+
+  display: inline-block; letter-spacing: 0.1em; position:relative; border-bottom: black 1px solid; 
 }
 
 .textlink a:before { position: absolute; right: 0; bottom: -1px; left: 0px; display: block; 
@@ -555,3 +561,8 @@ header nav a:hover {
   content: ""; z-index: 2; webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; -webkit-transform: translate(0%, 0px); -moz-transform: translate(0%, 0px); -o-transform: translate(0%, 0px); -ms-transform: translate(0%, 0px); transform: translate(0%, 0px); }
 .textlink a:hover:before { -webkit-transform: translate(10%, 0%); -moz-transform: translate(10%, 0%); -o-transform: translate(10%, 0%); -ms-transform: translate(10%, 0%); transform: translate(10%, 0%); }
 
+.btn h5 {
+  text-align: center;
+  border: 1px black solid;
+  padding: 1rem;
+}

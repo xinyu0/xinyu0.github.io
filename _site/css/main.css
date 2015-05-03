@@ -992,6 +992,8 @@ header #navi .navi_btn:after {
   text-align: center; }
 
 .pagenav span a {
+  font-size: 1rem;
+  font-family: "Oswald", Helvetica, Arial, sans-serif;
   display: inline-block;
   letter-spacing: 0.1em;
   position: relative;
@@ -1054,3 +1056,8 @@ header #navi .navi_btn:after {
   -o-transform: translate(10%, 0%);
   -ms-transform: translate(10%, 0%);
   transform: translate(10%, 0%); }
+
+.btn h5 {
+  text-align: center;
+  border: 1px black solid;
+  padding: 1rem; }
