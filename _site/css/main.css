@@ -17,7 +17,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: "Abel", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.8);
@@ -80,7 +80,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 0.875rem; }
+  font-size: 1.1375rem; }
 
 /**
  * Lists
@@ -306,7 +306,7 @@ pre {
     margin-bottom: 50px; }
 
 .post-meta {
-  font-size: 0.875rem;
+  font-size: 1.1375rem;
   color: #828282; }
 
 .post-link {
@@ -560,6 +560,10 @@ pre {
   margin-bottom: 3rem;
   min-height: 200px; }
 
+.col12 {
+  width: 100%;
+  margin-bottom: 3rem; }
+
 .col4, .col8 {
   border-top: 1px solid black;
   margin-top: 50px; }
@@ -627,6 +631,13 @@ pre {
 
   .col9 {
     width: 73.4%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 3rem;
+    box-sizing: border-box; }
+
+  .col12 {
+    width: 99.2%;
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
@@ -951,7 +962,8 @@ header #navi .navi_btn:after {
 
 .workimgmain {
   width: 100%;
-  height: 400px; }
+  height: 400px;
+  margin-bottom: 3rem; }
   .workimgmain h2 {
     background-color: rgba(255, 255, 255, 0.5);
     display: inline-flex;
@@ -1010,3 +1022,35 @@ header #navi .navi_btn:after {
   -o-transform: translate(50%, 0%);
   -ms-transform: translate(50%, 0%);
   transform: translate(50%, 0%); }
+
+.textlink a {
+  display: inline-block;
+  letter-spacing: 0.1em;
+  position: relative;
+  border-bottom: black 1px solid; }
+
+.textlink a:before {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0px;
+  display: block;
+  border-bottom: black 1px solid;
+  content: "";
+  z-index: 2;
+  webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translate(0%, 0px);
+  -moz-transform: translate(0%, 0px);
+  -o-transform: translate(0%, 0px);
+  -ms-transform: translate(0%, 0px);
+  transform: translate(0%, 0px); }
+
+.textlink a:hover:before {
+  -webkit-transform: translate(10%, 0%);
+  -moz-transform: translate(10%, 0%);
+  -o-transform: translate(10%, 0%);
+  -ms-transform: translate(10%, 0%);
+  transform: translate(10%, 0%); }

@@ -7,7 +7,7 @@
 // Our variables
 $base-font-family: 'Abel', Helvetica, Arial, sans-serif;
 $h-font-family: 'Oswald', Helvetica, Arial, sans-serif;
-$base-font-size:   1rem;
+$base-font-size:   1.3rem;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6;
 
@@ -114,6 +114,11 @@ $gut: 4%;
     min-height: 200px;
 }
 
+.col12 { 
+    width:100%;
+    margin-bottom: 3rem;
+}
+
 .col4, .col8 {
   border-top: 1px solid black;
   // padding-top: 30px;
@@ -165,7 +170,9 @@ $gut: 4%;
 // div:last-of-type {
 //   margin-right: 0;
 // }
-
+.col12 {
+  @include grid(12);
+}
 }
 
 
@@ -496,6 +503,7 @@ header nav a:hover {
 .workimgmain {
   width: 100%;
   height: 400px;
+  margin-bottom: 3rem;
   h2 {
     background-color: rgba(255,255,255,0.5);
     display: inline-flex;
@@ -537,3 +545,13 @@ header nav a:hover {
   border-bottom: black 1px solid; 
   content: ""; z-index: 2; webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; -webkit-transform: translate(0%, 0px); -moz-transform: translate(0%, 0px); -o-transform: translate(0%, 0px); -ms-transform: translate(0%, 0px); transform: translate(0%, 0px); }
 .pagenav span a:hover:before { -webkit-transform: translate(50%, 0%); -moz-transform: translate(50%, 0%); -o-transform: translate(50%, 0%); -ms-transform: translate(50%, 0%); transform: translate(50%, 0%); }
+
+
+.textlink a { display: inline-block; letter-spacing: 0.1em; position:relative; border-bottom: black 1px solid; 
+}
+
+.textlink a:before { position: absolute; right: 0; bottom: -1px; left: 0px; display: block; 
+  border-bottom: black 1px solid; 
+  content: ""; z-index: 2; webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; -webkit-transform: translate(0%, 0px); -moz-transform: translate(0%, 0px); -o-transform: translate(0%, 0px); -ms-transform: translate(0%, 0px); transform: translate(0%, 0px); }
+.textlink a:hover:before { -webkit-transform: translate(10%, 0%); -moz-transform: translate(10%, 0%); -o-transform: translate(10%, 0%); -ms-transform: translate(10%, 0%); transform: translate(10%, 0%); }
+
