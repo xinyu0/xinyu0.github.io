@@ -93,26 +93,26 @@
       -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;
     }}
 .github {
-    background: url("http://xinyudesign.com/images/github13.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)) ;
+    background: url("http://xinyudesign.com/images/home/github13.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)) ;
     background-size: 1.5rem;
     
-    &:hover{ background: url("http://xinyudesign.com/images/github13.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+    &:hover{ background: url("http://xinyudesign.com/images/home/github13.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
     background-size: 1.7rem;}
 
 
     }
   
  .dribbble {
-    background: url("http://xinyudesign.com/images/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) ;
+    background: url("http://xinyudesign.com/images/home/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)) ;
     background-size: 1rem;
-    &:hover{ background: url("http://xinyudesign.com/images/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+    &:hover{ background: url("http://xinyudesign.com/images/home/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
     background-size: 1.2rem;}
 }
   
 .email {
-    background: url("http://xinyudesign.com/images/email.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)) ;
+    background: url("http://xinyudesign.com/images/home/email.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.2)) ;
     background-size: 1rem;
-    &:hover{ background: url("http://xinyudesign.com/images/email.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
+    &:hover{ background: url("http://xinyudesign.com/images/home/email.svg") no-repeat center center, linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5));
     background-size: 1.2rem;}
 
 }

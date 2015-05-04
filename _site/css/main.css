@@ -253,24 +253,24 @@ pre {
     transition: all 0.3s ease; }
 
 .github {
-  background: url("http://xinyudesign.com/images/github13.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  background: url("http://xinyudesign.com/images/home/github13.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
   background-size: 1.5rem; }
   .github:hover {
-    background: url("http://xinyudesign.com/images/github13.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background: url("http://xinyudesign.com/images/home/github13.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     background-size: 1.7rem; }
 
 .dribbble {
-  background: url("http://xinyudesign.com/images/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  background: url("http://xinyudesign.com/images/home/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
   background-size: 1rem; }
   .dribbble:hover {
-    background: url("http://xinyudesign.com/images/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background: url("http://xinyudesign.com/images/home/dribbble6.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     background-size: 1.2rem; }
 
 .email {
-  background: url("http://xinyudesign.com/images/email.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
+  background: url("http://xinyudesign.com/images/home/email.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
   background-size: 1rem; }
   .email:hover {
-    background: url("http://xinyudesign.com/images/email.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    background: url("http://xinyudesign.com/images/home/email.svg") no-repeat center center, linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
     background-size: 1.2rem; }
 
 .footer-col {
@@ -858,7 +858,7 @@ header #navi .navi_btn:after {
     bottom: 0px;
     opacity: 1; } }
 .pagetop {
-  background-image: url(http://xinyudesign.com/images/work/ed2015/btn_pagetop.png);
+  background-image: url(http://xinyudesign.com/images/home/btn_pagetop.png);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 25px 20px;
