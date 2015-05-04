@@ -980,6 +980,11 @@ header #navi .navi_btn:after {
   background-size: cover;
   background-attachment: fixed; }
 
+.tarka_2 {
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("http://xinyudesign.com/images/work/tarka/tarka_top.jpg") no-repeat bottom center;
+  background-size: cover;
+  background-attachment: fixed; }
+
 .prevprojectslink {
   float: left; }
 
