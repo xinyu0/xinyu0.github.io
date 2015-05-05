@@ -564,10 +564,14 @@ pre {
     transform: rotate(720deg);
     -webkit-transform: rotate(720deg); }
 
-.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9 {
+.col1, .col2, .col3, .col4, .col5, .col7, .col8, .col9 {
   width: 100%;
   margin-bottom: 3rem;
   min-height: 200px; }
+
+.col6 {
+  width: 100%;
+  margin-bottom: 1rem; }
 
 .col12 {
   width: 100%;
@@ -621,7 +625,8 @@ pre {
     box-sizing: border-box;
     position: relative; }
     .col6:last-of-type {
-      margin-right: 0; }
+      margin-right: 0;
+      margin-bottom: 2rem; }
 
   .col7 {
     width: 56.2%;
@@ -1080,3 +1085,6 @@ header #navi .navi_btn:after {
   text-align: center;
   border: 1px black solid;
   padding: 1rem; }
+
+.aligntobtn {
+  margin-top: 10%; }
