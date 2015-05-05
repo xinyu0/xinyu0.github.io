@@ -25,6 +25,15 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 /**
+ * reset box-sizing to border-box
+ */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/**
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
