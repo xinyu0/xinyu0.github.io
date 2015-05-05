@@ -649,19 +649,19 @@ pre {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://xinyudesign.com/images/work/ed2015/iMac.png") no-repeat center center;
     background-size: 400px; }
 
-.media.media_creative {
+.media.center {
   width: 100%;
   margin: 0 auto;
   min-height: 200px; }
-  .media.media_creative img {
+  .media.center img {
     display: block;
     margin: 0 auto; }
 
-.media.media_creative .media_creative--link {
+.media.center .center--link {
   display: block;
   position: relative; }
 
-.media.media_creative .media_creative--mask {
+.media.center .center--mask {
   width: 100%;
   height: 100%;
   min-height: 200px;
@@ -672,24 +672,24 @@ pre {
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s; }
 
-.js .media.media_creative .media_creative--mask {
+.js .media.center .center--mask {
   opacity: 0; }
 
-.media.media_creative .media_creative--link:hover .media_creative--mask {
+.media.center .center--link:hover .center--mask {
   opacity: 1; }
 
-.media.media_creative .media_creative--link:hover .media_creative--heading {
+.media.center .center--link:hover .center--heading {
   bottom: 100px;
   opacity: 1; }
 
-.media.media_creative .media_creative--link:hover .media_creative--border {
+.media.center .center--link:hover .center--border {
   width: 85%; }
 
-.media.media_creative .media_creative--link:hover .media_creative--text {
+.media.center .center--link:hover .center--text {
   top: 120px;
   opacity: 1; }
 
-.media.media_creative .media_creative--heading {
+.media.center .center--heading {
   width: 100%;
   font-size: 1.3rem;
   line-height: 1.6;
@@ -700,7 +700,7 @@ pre {
   -webkit-transition: bottom 0.35s ease 0.1s,opacity 0.35s ease 0.1s;
   transition: bottom 0.35s ease 0.1s,opacity 0.35s ease 0.1s; }
 
-.media.media_creative .media_creative--border {
+.media.center .center--border {
   display: inline-block;
   *display: inline;
   *zoom: 1;
@@ -710,7 +710,7 @@ pre {
   -webkit-transition: width 0.35s ease 0.1s;
   transition: width 0.35s ease 0.1s; }
 
-.media.media_creative .media_creative--text {
+.media.center .center--text {
   width: 100%;
   text-align: center;
   font-size: 1.3rem;
