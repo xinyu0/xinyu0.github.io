@@ -3,7 +3,7 @@ layout: post
 title: "more about xinyu"
 date: 2015-04-30 21:57:39
 tags: thoughts
-<!-- published: false -->
+published: false
 ---
 <!-- I didn't want to be a designer or an artist when I was growing up. I made drawings and paintings but thought I was not good enough to make it as a living.-->
 
