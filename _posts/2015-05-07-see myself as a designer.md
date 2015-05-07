@@ -1,17 +1,9 @@
 ---
-layout: page
-title: about
-permalink: /about/
+layout: post
+title: "see myself as a designer"
+date: 2015-05-07 21:57:39
+tags: thoughts
+<!-- published: false -->
 ---
-
-Hi, my name is Xinyu.  
-I am a Web & UI Designer currently living in Austin, TX. 
-
 I was really into Japanese comic books when I was a kid. I pretty much spent all my time and money on anime DVDs and mangas. I made drawings and paintings here and there but I did not think of this as anything more than a hobby until in my mid-to-late 20s, I found out that I really love design. In 2015, I went from someone with no design experience and skill set to someone who can design logos, icons and websites. 
-
-I like design and spend a lot of time on the internet reading about it. 
-
-If you are interested in working with me or want to collaborate on a project, feel free to say hello. 
-
-<span class="textlink"><a href="mailto:hello@xinyudesign.com">hello@xinyudesign.com</a></span>
 
