@@ -6,10 +6,8 @@ permalink: /about/
 
 Hi, my name is Xinyu.  
 I am a Web & UI Designer currently living in Austin, TX. 
-
-I was really into Japanese comic books when I was a kid. I pretty much spent all my time and money on anime DVDs and mangas. I made drawings and paintings here and there but I did not think of this as anything more than a hobby until in my mid-to-late 20s, I found out that I really love design. In 2015, I went from someone with no design experience and skill set to someone who can design logos, icons and websites. 
-
-I like design and spend a lot of time on the internet reading about it. 
+I like design and spend a lot of time on the internet reading about it and tinkering on codepen .
+This site shows some samples of the projects that I have been worked on, mostly web sites and logos. You can read a little more about me on <a href="">here</a>, see what I'm working on at <a href="">Dribbble</a>, and read my <a href="">blog posts</a>. 
 
 If you are interested in working with me or want to collaborate on a project, feel free to say hello. 
 
