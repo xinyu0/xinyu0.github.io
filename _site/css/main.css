@@ -944,7 +944,7 @@ header #navi .navi_btn:after {
   background-size: cover; }
 
 .gr {
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("http://xinyudesign.com/images/work/gr/mockups_1.jpg") no-repeat bottom center;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("http://xinyudesign.com/images/work/gr/gr_top.jpg") no-repeat bottom center;
   background-size: cover; }
 
 .workimgmain {
@@ -973,7 +973,7 @@ header #navi .navi_btn:after {
   background-attachment: fixed; }
 
 .gr_2 {
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("http://xinyudesign.com/images/work/gr/mockups_1.jpg") no-repeat bottom center;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("http://xinyudesign.com/images/work/gr/gr_top.jpg") no-repeat bottom center;
   background-size: cover;
   background-attachment: fixed; }
 
