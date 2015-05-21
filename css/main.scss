@@ -455,9 +455,7 @@ header nav a:hover {
   }
 }
 
-// * {
-//   border: 1px solid red;
-// }
+
 
 .workimg {
   width: 100%;
@@ -471,6 +469,12 @@ header nav a:hover {
 .tarka {
  
   background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/tarka/tarka_top.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
+.solotraveler {
+
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/solotraveler/solotraveler_top.png") no-repeat bottom center;
   background-size: cover;
 }
 
@@ -572,3 +576,7 @@ header nav a:hover {
   margin-top: 10%;
   // margin-bottom: 50%;
 }
+
+// * {
+//   border: 1px solid red;
+// }
