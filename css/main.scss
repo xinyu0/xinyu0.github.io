@@ -474,13 +474,19 @@ header nav a:hover {
 
 .solotraveler {
 
-  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/solotraveler/solotraveler_top.png") no-repeat bottom center;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/solotraveler/solotraveler_top.jpg") no-repeat bottom center;
   background-size: cover;
 }
 
 .csszengarden {
 
-  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/csszengarden/csszengarden_top.png") no-repeat bottom center;
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/csszengarden/csszengarden_top.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+
+.csszengarden_2 {
+
+  background: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url("http://xinyudesign.com/images/work/csszengarden/csszengarden_top.jpg") no-repeat bottom center;
   background-size: cover;
 }
 
@@ -525,6 +531,21 @@ header nav a:hover {
 .gr_2 {
  
   background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("http://xinyudesign.com/images/work/gr/gr_top.jpg") no-repeat bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.solotraveler_2 {
+ 
+  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("http://xinyudesign.com/images/work/solotraveler/solotraveler_top.jpg") no-repeat bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.csszengarden_2 {
+
+  background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url("http://xinyudesign.com/images/work/csszengarden/csszengarden_top.jpg") no-repeat bottom center;
   background-size: cover;
   background-attachment: fixed;
 }
