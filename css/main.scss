@@ -115,6 +115,7 @@ $gut: 4%;
 }
 
 
+
 .col6 { 
     width:100%;
     margin-bottom: 1rem;
@@ -129,7 +130,7 @@ $gut: 4%;
 
 
 .col4, .col8 {
-  border-top: 1px solid black;
+  // border-top: 1px solid black;
   // padding-top: 30px;
   margin-top: 50px;
 }
@@ -149,10 +150,15 @@ $gut: 4%;
 
 .col4 {
   @include grid(4);
+  &:last-of-type {
+    margin-right: 0;
+  }
 }
 
 .col5 {
   @include grid(5);
+  margin-right: 0;
+   margin-left: 4%;
 }
 
 .col6 {

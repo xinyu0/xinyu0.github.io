@@ -62,11 +62,17 @@ h2 {
       font-size: 2rem; } }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  text-transform: uppercase;
   letter-spacing: 0.15rem; }
   @media screen and (min-width: 680px) {
     h3 {
-      font-size: 1.1rem; } }
+      font-size: 1.2rem; } }
+
+.page-content h3 {
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+  line-height: 2; }
 
 p {
   font-size: 1.1rem; }
@@ -578,7 +584,6 @@ pre {
   margin-bottom: 3rem; }
 
 .col4, .col8 {
-  border-top: 1px solid black;
   margin-top: 50px; }
 
 @media screen and (min-width: 680px) {
@@ -609,13 +614,17 @@ pre {
     margin-right: 4%;
     margin-bottom: 3rem;
     box-sizing: border-box; }
+    .col4:last-of-type {
+      margin-right: 0; }
 
   .col5 {
     width: 39%;
     float: left;
     margin-right: 4%;
     margin-bottom: 3rem;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    margin-right: 0;
+    margin-left: 4%; }
 
   .col6 {
     width: 47.6%;
