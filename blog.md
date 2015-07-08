@@ -4,8 +4,8 @@ title: blog
 permalink: /blog/
 ---
 
+<!-- <h1 class="page-heading">Blog</h1> -->
 
-<h1 class="page-heading">Posts</h1>
 <ul class="post-list">
     
     {% for post in site.posts %}
