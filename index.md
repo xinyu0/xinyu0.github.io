@@ -1,10 +1,9 @@
 ---
-layout: page
-title: about
-permalink: /about/
+layout: default
 ---
 
 Hi, my name is Xinyu.  
+
 
 I am a Web Designer & Creative Entrepreneur from Shanghai, China. 
 I like design and spend a lot of time on the Internet reading about it and tinkering on CodePen.
