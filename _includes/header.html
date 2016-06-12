@@ -3,8 +3,7 @@
   <div id="navi_btn"><span></span></div>
 
   <nav class="nav-collapse">
-    <ul>  
-          <li><a href="/">projects</a></li>
+    <ul> 
           {% for page in site.pages %}
             {% if page.title %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
@@ -24,8 +23,7 @@
 </header>
 
 
-<ul class="sidenav">
-         <li><a href="/">projects</a></li>  
+<ul class="sidenav"> 
           {% for page in site.pages %}
             {% if page.title %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
